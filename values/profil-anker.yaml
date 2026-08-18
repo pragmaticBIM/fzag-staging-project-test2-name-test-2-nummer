@@ -1,0 +1,22 @@
+id: fzag:value/profil-anker
+name:
+  de: Typ Profil Anker
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: tragende Querschnittsform des Ankerkörpers an, z. B. Mehrlitzsystem, Vollstab (Gewindestab) oder Hohlstab/Rohr.
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - Mehrlitz
+  - Vollstab
+  - Rohr/Hohlprofil
+  fr: []
+  it: []
+  en: []

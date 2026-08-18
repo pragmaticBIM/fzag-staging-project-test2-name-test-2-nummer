@@ -1,0 +1,23 @@
+id: fzag:value/druckfestigkeitsklasse
+name:
+  de: Druckfestigkeitsklasse
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Druckfestigkeitsklasse
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - C12/15
+  - C20/25
+  - C25/30
+  - C30/37
+  fr: []
+  it: []
+  en: []

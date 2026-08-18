@@ -1,0 +1,22 @@
+id: fzag:value/manual-betonfundament
+name:
+  de: Subtyp_FZAG_Allgemein_Betonfundament
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Betonfundament
+  fr:
+  - Betonfundament
+  it:
+  - Betonfundament
+  en: []

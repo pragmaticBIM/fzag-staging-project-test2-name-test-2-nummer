@@ -1,0 +1,18 @@
+id: fzag:domain/3d-gebaude
+sort_order: 11
+name:
+  de: 3D-Gebäude
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: Basismodell FZAG - Das 3D-Gebäudemodell für das Projektperimeter kann bei der Werkleitungskoordination für den Projektstart angefordert werden.
+  fr: ''
+  it: ''
+  en: ''
+status: active
+file_name:
+  de: '{Projekt-Nr.}_3D-Gebaeude'
+  fr: ''
+  it: ''
+  en: ''

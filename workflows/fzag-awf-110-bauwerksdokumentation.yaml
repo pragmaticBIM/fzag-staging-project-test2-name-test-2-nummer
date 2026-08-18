@@ -1,0 +1,25 @@
+id: fzag:workflow/fzag-awf-110-bauwerksdokumentation
+sort_order: 30
+code: FZAG-AWF-110
+name:
+  de: Bauwerksdokumentation
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Lieferung der Bauwerksdokumentation gemäss Weisungen FZAG
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: active
+needed_in_domain:
+- fzag:domain/trinkwasser
+- fzag:domain/entwaesserung
+- fzag:domain/technische-ausruestung
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+- fzag:domain/elektroanlagen-o
+- fzag:domain/materialkennwert
+comment: ''
+workflow_group: Standard

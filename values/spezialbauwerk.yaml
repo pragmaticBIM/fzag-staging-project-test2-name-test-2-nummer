@@ -1,0 +1,40 @@
+id: fzag:value/spezialbauwerk
+name:
+  de: Spezialbauwerk
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Typ des Bauwerks
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Absturzbauwerk
+  - Be-/Entlueftungsbauwerk
+  - Duekerkammer
+  - Geschiebefang
+  - Spuelbauwerk
+  - Vereinigungskammer
+  - Verzweigungskammer
+  - Entleerungsbauwerk
+  - Verteilbauwerk
+  - Wirbelfallbauwerk
+  - Lueftungsbauwerk
+  - Kontrollbauwerk
+  - Oelabscheider
+  - Trennbauwerk
+  - Duekeroberhaupt
+  - Fettabscheider
+  - Unterstation Verregnung
+  - Pumpwerk
+  - Stapelbecken
+  - Regenrueckhaltebecken
+  - Regenklaerbecken
+  fr: []
+  it: []
+  en: []

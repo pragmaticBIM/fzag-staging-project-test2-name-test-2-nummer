@@ -1,0 +1,22 @@
+id: fzag:value/manual-betonrohr
+name:
+  de: Subtyp_FZAG_Allgemein_Betonrohr
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Betonrohr
+  fr:
+  - Betonrohr
+  it:
+  - Betonrohr
+  en: []

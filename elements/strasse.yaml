@@ -1,0 +1,87 @@
+id: fzag:element/strasse
+sort_order: 3
+status: active
+name:
+  de: Strasse
+  fr: ''
+  it: ''
+  en: ''
+needed_in_domain:
+- fzag:domain/gelande-dtm
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+- fzag:domain/trinkwasser
+- fzag:domain/elektroanlagen-o
+- fzag:domain/entwaesserung
+- fzag:domain/technische-ausruestung
+- fzag:domain/materialkennwert
+- fzag:domain/geologie
+- fzag:domain/elektroanlagen-m
+- fzag:domain/gebaude-m
+- fzag:domain/kunstbauten-o
+- fzag:domain/flughafen-fixpunkte
+- fzag:domain/werkleitungen-medium
+- fzag:domain/airfield-technics
+- fzag:domain/bauhindernisse
+- fzag:domain/geodaten
+- fzag:domain/amtliche-vermessung
+- fzag:domain/3d-gebaude
+- fzag:domain/enteisung
+- fzag:domain/fernwaerme
+- fzag:domain/projektnullpunkt
+- fzag:domain/rohrpost
+- fzag:domain/sprenganlage
+definition:
+  de: Ein IfcRoad repräsentiert eine gesamte Strasse als bauliche Anlage. Dazu gehören Trasse, Fahrbahnen, Geh- und Radwege, Entwässerung, Ausstattungselemente und begleitende Bauwerke. Das Objekt dient
+    als übergeordnetes Container-Element für die Modellierung von Strassenprojekten in IFC.
+  fr: ''
+  it: ''
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcBuilding
+entity_ifc4_3: IfcRoad
+picture_link: null
+model_link: null
+applicability: entity_ifc4=IfcBuilding
+attributes:
+- name: Name
+  pset: null
+  definition:
+    de: Bezeichnung der Strasse
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-020-2-bezeichnung-kontrollschachte-entwasserung
+  - fzag:workflow/fzag-awf-020-3-bezeichnung-elektroschachte
+  - fzag:workflow/fzag-awf-020-6-modellbasierte-kontrolle-der-projektierung
+  - fzag:workflow/modellbasierte-trassee-elektroplanung
+  - fzag:workflow/fzag-awf-090-1-modellbasierte-absteckung
+  - fzag:workflow/fzag-awf-090-2-modellbasierte-bauphasenplanung
+  - fzag:workflow/fzag-awf-090-6-datenaufnahme-der-ausgefuhrten-arbeiten-field2gis
+  - fzag:workflow/fzag-awf-110-1-erstellung-des-as-built-modells-ab-2d-plane
+  - fzag:workflow/fzag-awf-030-modellbasierte-koordination
+  - fzag:workflow/fzag-awf-050-2d-planableitungen-aus-dem-modell
+  - fzag:workflow/fzag-awf-060-modellbasierte-massen-und-mengenermittlung
+  is_applicability: false
+  status: active
+  sort_order: 1

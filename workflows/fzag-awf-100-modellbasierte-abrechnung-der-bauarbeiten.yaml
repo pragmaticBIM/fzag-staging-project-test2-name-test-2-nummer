@@ -1,0 +1,25 @@
+id: fzag:workflow/fzag-awf-100-modellbasierte-abrechnung-der-bauarbeiten
+sort_order: 29
+code: FZAG-AWF-100
+name:
+  de: Modellbasierte Abrechnung der Bauarbeiten
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Das Ausmass und die Abrechnung erfolgen modellbasiert auf Basis des BIM-Modells. Zur zusätzlichen Kontrolle sind entsprechende Nachweise (Liefernachweise etc.) vorzuweisen.
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: 01 Idea
+needed_in_domain:
+- fzag:domain/trinkwasser
+- fzag:domain/entwaesserung
+- fzag:domain/technische-ausruestung
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+- fzag:domain/elektroanlagen-o
+- fzag:domain/materialkennwert
+comment: ''
+workflow_group: Optional

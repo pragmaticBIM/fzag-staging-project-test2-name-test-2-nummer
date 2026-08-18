@@ -1,0 +1,21 @@
+id: fzag:value/sensorenschlaufe
+name:
+  de: Sensorenschlaufe
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Art der Einbau
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - mit Rohreinlage einbetoniert
+  - eingefraest in Belag
+  fr: []
+  it: []
+  en: []

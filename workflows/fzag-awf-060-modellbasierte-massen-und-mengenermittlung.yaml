@@ -1,0 +1,25 @@
+id: fzag:workflow/fzag-awf-060-modellbasierte-massen-und-mengenermittlung
+sort_order: 20
+code: FZAG-AWF-060
+name:
+  de: Modellbasierte Massen- und Mengenermittlung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: "Automatische Massen- und Mengenermittlung aus dem Modell für: \n- Kostenschätzung \n- Kostenvoranschlag \n- Ausschreibung der Bauarbeiten \n- Abrechnung \n- Materialbewirtschaftung"
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: active
+needed_in_domain:
+- fzag:domain/trinkwasser
+- fzag:domain/entwaesserung
+- fzag:domain/technische-ausruestung
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+- fzag:domain/elektroanlagen-o
+- fzag:domain/materialkennwert
+comment: ''
+workflow_group: Optional

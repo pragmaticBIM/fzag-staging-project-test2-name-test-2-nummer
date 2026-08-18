@@ -1,0 +1,21 @@
+id: fzag:domain/bauhindernisse
+sort_order: 19
+name:
+  de: Bauhindernisse
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: 'Bestandsmodell FZAG - Das Bauhindernismodell für das Projektperimeter kann bei der Werkleitungskoordination für den Projektstart angefordert werden.
+
+
+    Projektmodell (Neubau und Abbruch) - beinhaltet die Modellelemente: z. B.  Spundwand, Anker, Pfähle, Fundamente'
+  fr: ''
+  it: ''
+  en: ''
+status: active
+file_name:
+  de: '{Projekt-Nr.}_B_Bauhindernisse, {Projekt-Nr.}_N_{SIA-Phase}_Spundwand, {Projekt-Nr.}_N_{SIA-Phase}_Anker, {Projekt-Nr.}_N_{SIA-Phase}_Pfahl, {Projekt-Nr.}_N_{SIA-Phase}_Fundamente'
+  fr: ''
+  it: ''
+  en: ''

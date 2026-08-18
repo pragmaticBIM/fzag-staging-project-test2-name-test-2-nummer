@@ -1,0 +1,22 @@
+id: fzag:value/manual-sensorenschlaufe
+name:
+  de: Subtyp_FZAG_Allgemein_Sensorenschlaufe
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Sensorenschlaufe
+  fr:
+  - Sensorenschlaufe
+  it:
+  - Sensorenschlaufe
+  en: []

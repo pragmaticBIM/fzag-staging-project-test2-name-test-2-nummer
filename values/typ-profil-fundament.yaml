@@ -1,0 +1,23 @@
+id: fzag:value/typ-profil-fundament
+name:
+  de: Typ Profil Fundament
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: geometrische Grundform des Fundaments, z. B. rechteckig, quadratisch, streifenförmig oder plattenartig, welche die Lastverteilung beeinflusst.
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - quadratisch
+  - rechteckig
+  - streifenförmig
+  - plattenartig
+  fr: []
+  it: []
+  en: []

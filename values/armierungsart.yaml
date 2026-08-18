@@ -1,0 +1,24 @@
+id: fzag:value/armierungsart
+name:
+  de: Art Armierung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: gemäss statische Ergebnisse
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - unbewehrt
+  - leicht bewehrt
+  - mittel bewehrt
+  - stark bewehrt
+  - kunststoffbewehrt
+  fr: []
+  it: []
+  en: []

@@ -1,0 +1,24 @@
+id: fzag:value/lagegenauigkeit-horizontal
+name:
+  de: Lagegenauigkeit Horizontal
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Quantifizierung der Lagegenauigkeit Horizontal
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: deprecated
+values:
+  de:
+  - LOA-H-10 (>50mm)
+  - LOA-H-20 (15-50mm)
+  - LOA-H-30 (5-15mm)
+  - LOA-H-40 (1-5mm)
+  - LOA-H-50 (0-1mm)
+  fr: []
+  it: []
+  en: []

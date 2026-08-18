@@ -1,0 +1,485 @@
+id: fzag:element/trinkwasserleitung
+sort_order: 18
+status: active
+name:
+  de: Trinkwasserleitung
+  fr: ''
+  it: ''
+  en: ''
+needed_in_domain:
+- fzag:domain/trinkwasser
+definition:
+  de: Leitung zum Transport von Trinkwasser.
+  fr: ''
+  it: ''
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcPipeSegment
+entity_ifc4_3: IfcPipeSegment
+picture_link: trinkwasserleitung.webp
+model_link: null
+applicability: entity_ifc4=IfcPipeSegment
+attributes:
+- name: PredefinedType
+  pset: null
+  definition:
+    de: Spezifiziert um welches Element es sich handelt.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/rigidsegment
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+  - fzag:workflow/fzag-awf-020-6-modellbasierte-kontrolle-der-projektierung
+  is_applicability: false
+  status: active
+  sort_order: 1
+- name: Bauunternehmung
+  pset: FZAG_Allgemein
+  definition:
+    de: Ausführende Firma
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 2
+- name: Eigentuemer
+  pset: FZAG_Allgemein
+  definition:
+    de: Eigentümer der Infrastruktur
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/eigentuemer
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 3
+- name: Einbaujahr
+  pset: FZAG_Allgemein
+  definition:
+    de: Datum (JJJJ)
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcInteger
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 4
+- name: Flughafen Normalien
+  pset: FZAG_Allgemein
+  definition:
+    de: Nummer der Flughafen-Normalien z. B. FN_2-301
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 5
+- name: Ingenieurfirma
+  pset: FZAG_Allgemein
+  definition:
+    de: Planer, Ingenieur
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 6
+- name: Lagegenauigkeit Horizontal
+  pset: FZAG_Allgemein
+  definition:
+    de: Quantifizierung der Lagegenauigkeit Horizontal
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/lagegenauigkeit-horizontal
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 7
+- name: Lagegenauigkeit Vertikal
+  pset: FZAG_Allgemein
+  definition:
+    de: Quantifizierung der Lagegenauigkeit Vertikal
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/lagegenauigkeit-vertikal
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 8
+- name: Subtyp
+  pset: FZAG_Allgemein
+  definition:
+    de: Spezifiziert um welches Element es sich handelt. Anhand von diesem Property, wir die Anwendbarkeit (Applicability) im IDS Geprüft geprüft.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/manual-trinkwasserleitung
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+  - fzag:workflow/fzag-awf-020-6-modellbasierte-kontrolle-der-projektierung
+  is_applicability: true
+  status: active
+  sort_order: 9
+- name: Verantwortliche baulicher Unterhalt
+  pset: FZAG_Allgemein
+  definition:
+    de: Organisation verantwortlich für den baulichen Unterhalt
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/eigentuemer
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 10
+- name: TWL_Aussendurchmesser
+  pset: FZAG_Trinkwasserleitung
+  definition:
+    de: Aussendurchmesser der Leitung in mm
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcReal
+  unit: mm
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+  is_applicability: false
+  status: active
+  sort_order: 11
+- name: TWL_Innendurchmesser
+  pset: FZAG_Trinkwasserleitung
+  definition:
+    de: Innendurchmesser der Leitung in mm
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  unit: mm
+  allowed_values: fzag:value/innendurchmesser-rohr
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+  - fzag:workflow/fzag-awf-020-6-modellbasierte-kontrolle-der-projektierung
+  is_applicability: false
+  status: active
+  sort_order: 12
+- name: TWL_Material
+  pset: FZAG_Trinkwasserleitung
+  definition:
+    de: Material der Leitung
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/material-trinkwasser-leitung
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+  - fzag:workflow/fzag-awf-020-6-modellbasierte-kontrolle-der-projektierung
+  is_applicability: false
+  status: active
+  sort_order: 13
+- name: TWL_Umhuellungsmaterial
+  pset: FZAG_Trinkwasserleitung
+  definition:
+    de: Material der Umhüllung
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/umhuellungsmaterial
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+  is_applicability: false
+  status: active
+  sort_order: 14
+- name: TW_Status
+  pset: FZAG_Trinkwasserleitung
+  definition:
+    de: Dieses Status Attribut dient dem Import für das GIS.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/status-trinkwasser
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+  - fzag:workflow/fzag-awf-020-6-modellbasierte-kontrolle-der-projektierung
+  is_applicability: false
+  status: active
+  sort_order: 15

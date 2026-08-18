@@ -1,0 +1,25 @@
+id: fzag:workflow/fzag-awf-090-1-modellbasierte-absteckung
+sort_order: 25
+code: FZAG-AWF-090.1
+name:
+  de: Modellbasierte Absteckung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Die Absteckung der Bauelemente erfolgt auf Basis des as-planned Modell.
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: active
+needed_in_domain:
+- fzag:domain/trinkwasser
+- fzag:domain/entwaesserung
+- fzag:domain/technische-ausruestung
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+- fzag:domain/elektroanlagen-o
+comment: ''
+parent_workflow: fzag:workflow/fzag-awf-090-modellbasierte-ausfuhrungsplanung-bim2field
+workflow_group: Standard

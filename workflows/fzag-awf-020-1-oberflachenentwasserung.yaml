@@ -1,0 +1,26 @@
+id: fzag:workflow/fzag-awf-020-1-oberflachenentwasserung
+sort_order: 11
+code: FZAG-AWF-020.4
+name:
+  de: Oberflächenentwässerung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: 'Nutzung des as-planned Modells für die Bemessung und Nachweisführung in Form eines Berichts oder eines Plans: Fliesswegmodell (Überprüfung Entwässerung Oberfläche)'
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: 02 WIP
+needed_in_domain:
+- fzag:domain/trinkwasser
+- fzag:domain/entwaesserung
+- fzag:domain/technische-ausruestung
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+- fzag:domain/elektroanlagen-o
+- fzag:domain/materialkennwert
+comment: ''
+parent_workflow: fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+workflow_group: Standard

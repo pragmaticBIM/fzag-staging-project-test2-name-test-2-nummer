@@ -1,0 +1,20 @@
+id: fzag:value/paving
+name:
+  de: PAVING
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - PAVING
+  fr: []
+  it: []
+  en: []

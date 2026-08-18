@@ -1,0 +1,21 @@
+id: fzag:domain/unterbau
+sort_order: 3
+name:
+  de: Unterbau
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: 'Bestandsmodell FZAG - Das Unterbaumodell (auch Tiefbau genannt) für das Projektperimeter kann bei der Werkleitungskoordination für den Projektstart angefordert werden.
+
+
+    Projektmodell (Neubau und Abbruch) - beinhaltet die Modellelemente: z. B.  Unterbau'
+  fr: ''
+  it: ''
+  en: ''
+status: active
+file_name:
+  de: '{Projekt-Nr.}_B_Unterbau{Projekt-Nr.}_N_{SIA-Phase}_Unterbau{Projekt-Nr.}_A_{SIA-Phase}_Unterbau'
+  fr: ''
+  it: ''
+  en: ''

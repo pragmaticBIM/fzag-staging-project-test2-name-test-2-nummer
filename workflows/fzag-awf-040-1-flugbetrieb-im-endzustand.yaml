@@ -1,0 +1,20 @@
+id: fzag:workflow/fzag-awf-040-1-flugbetrieb-im-endzustand
+sort_order: 18
+code: FZAG-AWF-040.1
+name:
+  de: Flugbetrieb im Endzustand
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Visualisieren und prüfen der Schleppkurven am Modell.
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: 01 Idea
+needed_in_domain:
+- fzag:domain/oberbau
+comment: ''
+parent_workflow: fzag:workflow/fzag-awf-040-visualisierung
+workflow_group: Optional

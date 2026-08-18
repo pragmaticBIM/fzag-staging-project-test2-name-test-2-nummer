@@ -1,0 +1,22 @@
+id: fzag:value/ausbildung-anker
+name:
+  de: Ausbildung Anker
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: bauliche und statische Ausbildung des Ankers, insbesondere freie Länge, Verpresslänge, Vorspannung sowie Art der Kraftübertragung in den Boden.
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - Ankerplatte
+  - Kraftverteilträger
+  - Vorspannsystem
+  fr: []
+  it: []
+  en: []

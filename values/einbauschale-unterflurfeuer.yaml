@@ -1,0 +1,21 @@
+id: fzag:value/einbauschale-unterflurfeuer
+name:
+  de: Einbauschale Unterflurfeuer
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Blinddeckel der Einbauschale
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Ja
+  - Nein
+  fr: []
+  it: []
+  en: []

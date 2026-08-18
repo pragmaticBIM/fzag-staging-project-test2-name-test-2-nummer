@@ -1,0 +1,22 @@
+id: fzag:value/manual-hydrant
+name:
+  de: Subtyp_FZAG_Allgemein_Hydrant
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Hydrant
+  fr:
+  - Hydrant
+  it:
+  - Hydrant
+  en: []

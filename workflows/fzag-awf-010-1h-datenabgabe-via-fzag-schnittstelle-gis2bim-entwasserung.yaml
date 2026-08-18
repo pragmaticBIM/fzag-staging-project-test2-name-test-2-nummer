@@ -1,0 +1,20 @@
+id: fzag:workflow/fzag-awf-010-1h-datenabgabe-via-fzag-schnittstelle-gis2bim-entwasserung
+sort_order: 9
+code: FZAG-AWF-010.1h
+name:
+  de: Datenabgabe via FZAG Schnittstelle GIS2BIM - Entwässerung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Abgabe der bestehenden Entwässerung Werkleitungsdaten durch die Werkleitungskoordination FZAG.
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: 02 WIP
+needed_in_domain:
+- fzag:domain/werkleitungen-medium
+comment: ''
+parent_workflow: fzag:workflow/fzag-awf-010-bestandserfassung-und-modellierung
+workflow_group: Standard

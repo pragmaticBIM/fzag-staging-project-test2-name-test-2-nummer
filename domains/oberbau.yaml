@@ -1,0 +1,23 @@
+id: fzag:domain/oberbau
+sort_order: 2
+name:
+  de: Oberbau
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: 'Bestandsmodell FZAG - Das Oberbaumodell (auch Tiefbau genannt) für das Projektperimeter kann bei der Werkleitungskoordination für den Projektstart angefordert werden.
+
+
+    Projektmodell (Neubau und Abbruch) - beinhaltet die Modellelemente: z. B.  Betonbelag, Asphaltbelag, Fundation, Bankett, Randabschluss'
+  fr: ''
+  it: ''
+  en: ''
+status: active
+file_name:
+  de: '{Projekt-Nr.}_B_Beton, {Projekt-Nr.}_B_Asphalt, {Projekt-Nr.}_B_Bankett, {Projekt-Nr.}_B_Randabschluss, {Projekt-Nr.}_B_Halbschale, {Projekt-Nr.}_B_Fundation{Projekt-Nr.}_N_{SIA-Phase}_Beton, {Projekt-Nr.}_N_{SIA-Phase}_Asphalt,
+    {Projekt-Nr.}_N_{SIA-Phase}_Banket, {Projekt-Nr.}_N_{SIA-Phase}_Randabschluss, {Projekt-Nr.}_N_{SIA-Phase}_Halbschale, {Projekt-Nr.}_N_Fundation{Projekt-Nr.}_A_{SIA-Phase}_Beton, {Projekt-Nr.}_A_{SIA-Phase}_Asphalt,
+    {Projekt-Nr.}_A_{SIA-Phase}_Banket, {Projekt-Nr.}_A_{SIA-Phase}_Randabschluss, {Projekt-Nr.}_A_{SIA-Phase}_Halbschale, {Projekt-Nr.}_A_Fundation'
+  fr: ''
+  it: ''
+  en: ''

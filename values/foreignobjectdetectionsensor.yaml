@@ -1,0 +1,20 @@
+id: fzag:value/foreignobjectdetectionsensor
+name:
+  de: FOREIGNOBJECTDETECTIONSENSOR
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - FOREIGNOBJECTDETECTIONSENSOR
+  fr: []
+  it: []
+  en: []

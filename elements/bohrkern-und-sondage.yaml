@@ -1,0 +1,172 @@
+id: fzag:element/bohrkern-und-sondage
+sort_order: 37
+status: active
+name:
+  de: Bohrkern und Sondage
+  fr: ''
+  it: ''
+  en: ''
+needed_in_domain:
+- fzag:domain/materialkennwert
+definition:
+  de: Kennwert zur Beschreibung der Materialeigenschaften eines Bauteils. Darstellung mit einem Zylinder für die Bohrkerne und Sondagen
+  fr: ''
+  it: ''
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcBuildingElementProxy
+entity_ifc4_3: IfcBuiltElement
+picture_link: null
+model_link: null
+applicability: entity_ifc4=IfcBuildingElementProxy
+attributes:
+- name: Subtyp
+  pset: FZAG_Allgemein
+  definition:
+    de: Datum (TT.MM.JJJJ)
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/manual-sondage
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: true
+  status: active
+  sort_order: 1
+- name: MK_Bohrkern ID-Nr
+  pset: FZAG_Materialkennwert
+  definition:
+    de: Eindeutige ID-Nummer des Bohrkerns (gemäss Namenskonvention FZAG-{Exportnummer}_BK_{Datum im Format JJMMTT}_{Freitext}
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/manual-fzag-d-bk-d-6
+  regex:
+    de: ^FZAG-(\d+)_BK_(\d{6})_(.+)$
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 2
+- name: MK_Datum der Sondage
+  pset: FZAG_Materialkennwert
+  definition:
+    de: Datum (TT.MM.JJJJ)
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcDate
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 3
+- name: MK_Datum des Bohrkerns
+  pset: FZAG_Materialkennwert
+  definition:
+    de: Datum (TT.MM.JJJJ)
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcDate
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 4
+- name: MK_Sondage ID-Nr
+  pset: FZAG_Materialkennwert
+  definition:
+    de: 'Eindeutige ID-Nummer der Sondage (gemäss Namenskonvention: FZAG-{Exportnummer}_S_{Datum im Format JJMMTT}_{Freitext}'
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/manual-fzag-d-s-d-8
+  regex:
+    de: ^FZAG-(\d+)_S_(\d{8})_(.+)$
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 5

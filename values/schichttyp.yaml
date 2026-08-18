@@ -1,0 +1,26 @@
+id: fzag:value/schichttyp
+name:
+  de: Typ Schicht
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Typ der Fundationsschicht
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Kies 0/45 OC 85
+  - RC-A 0/45 OC 85
+  - RC-B 0/45 OC 85
+  - UG 0/45
+  - Schotter 32/65
+  - ZMO
+  - ZMU
+  fr: []
+  it: []
+  en: []

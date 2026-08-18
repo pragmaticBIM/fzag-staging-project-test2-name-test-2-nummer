@@ -1,0 +1,27 @@
+id: fzag:workflow/fzag-awf-110-1-erstellung-des-as-built-modells-ab-2d-plane
+sort_order: 31
+code: FZAG-AWF-110.1
+name:
+  de: Erstellung des as-built Modells ab 2D-Pläne
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: 3D-Modellerstellung ab den 2D-Plänen (PAW) als Grundlage für Betriebs- und Unterhaltsplanung des Bauwerks. Die Informationsanforderungen der Auftraggeber (EIR/AIR) sind zu berücksichtigen. z.B. Bauwerke,
+    Kunstbauten
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: active
+needed_in_domain:
+- fzag:domain/trinkwasser
+- fzag:domain/entwaesserung
+- fzag:domain/technische-ausruestung
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+- fzag:domain/elektroanlagen-o
+- fzag:domain/materialkennwert
+comment: ''
+parent_workflow: fzag:workflow/fzag-awf-110-bauwerksdokumentation
+workflow_group: Optional

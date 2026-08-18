@@ -1,0 +1,23 @@
+id: fzag:value/asphalttyp
+name:
+  de: Material Asphalt
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Typ des Asphalts
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - AC
+  - MA
+  - SMA
+  - DSK
+  fr: []
+  it: []
+  en: []

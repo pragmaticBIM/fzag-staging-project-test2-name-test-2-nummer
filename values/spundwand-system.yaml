@@ -1,0 +1,23 @@
+id: fzag:value/spundwand-system
+name:
+  de: System Spundwand
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - Einzelbohlen
+  - Doppelbohlen
+  - Kastenspundwand
+  - Kombi-Wand
+  fr: []
+  it: []
+  en: []

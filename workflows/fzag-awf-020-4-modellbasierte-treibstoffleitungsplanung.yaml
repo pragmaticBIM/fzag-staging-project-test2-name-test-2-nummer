@@ -1,0 +1,20 @@
+id: fzag:workflow/fzag-awf-020-4-modellbasierte-treibstoffleitungsplanung
+sort_order: 37
+code: FZAG-AWF-020.1
+name:
+  de: Modellbasierte Treibstoffleitungsplanung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Modellbasierte Treibstoffleitungsplanung als Grundlage für die Koordination.
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: 01 Idea
+needed_in_domain:
+- fzag:domain/werkleitungen-medium
+comment: ''
+parent_workflow: fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+workflow_group: Optional

@@ -1,0 +1,22 @@
+id: fzag:value/manual-randabschluss
+name:
+  de: Subtyp_FZAG_Allgemein_Randabschluss
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Randabschluss
+  fr:
+  - Randabschluss
+  it:
+  - Randabschluss
+  en: []

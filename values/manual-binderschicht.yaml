@@ -1,0 +1,22 @@
+id: fzag:value/manual-binderschicht
+name:
+  de: Subtyp_FZAG_Allgemein_Binderschicht
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Binderschicht
+  fr:
+  - Binderschicht
+  it:
+  - Binderschicht
+  en: []

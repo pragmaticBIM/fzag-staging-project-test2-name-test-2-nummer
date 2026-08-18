@@ -1,0 +1,21 @@
+id: fzag:value/innenbeschichtung
+name:
+  de: Innenbeschichtung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Farbe der Innenbeschichtung
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Hell
+  - Dunkel
+  fr: []
+  it: []
+  en: []

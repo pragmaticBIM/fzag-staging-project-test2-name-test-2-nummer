@@ -1,0 +1,25 @@
+id: fzag:value/typ-markierung
+name:
+  de: Typ Markierung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Typ der Markierung
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Sperrflaeche
+  - Pfeil
+  - Wartelinie
+  - Haltelinie
+  - Fussgaengerueberweg
+  - Leitlinie
+  fr: []
+  it: []
+  en: []

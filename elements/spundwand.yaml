@@ -1,0 +1,335 @@
+id: fzag:element/spundwand
+sort_order: 39
+status: active
+name:
+  de: Spundwand
+  fr: ''
+  it: ''
+  en: ''
+needed_in_domain:
+- fzag:domain/bauhindernisse
+definition:
+  de: Eine Spundwand ist ein linear angeordnetes, in den Boden eingebrachtes Verbau‑ oder Stützbauwerk, das aus einzelnen oder zusammengesetzten Spundbohlen besteht. Sie dient der Sicherung von Baugruben,
+    Böschungen oder Uferbereichen und nimmt Erd‑ und Wasserdruck auf. Spundwände können freistehend, ausgesteift oder rückverankert sein und bleiben bei dauerhaften Anwendungen dauerhaft im Boden.
+  fr: ''
+  it: ''
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcPile
+entity_ifc4_3: IfcPile
+picture_link: null
+model_link: null
+applicability: entity_ifc4=IfcWall
+attributes:
+- name: Subtyp
+  pset: FZAG_Allgemein
+  definition:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/manual-spundwand
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 2
+  link_uid: ''
+- name: System
+  sort_order: 2
+  pset: FZAG_Bauhindernis_Spundwand
+  definition:
+    de: systematische Ausbildung der Spundwand, z. B. als Einzelbohle, Doppelbohle, Kastenspundwand oder kombinierte Spundwand (Kombi‑Wand mit Tragpfählen).
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/subtyp-anker
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: Profil
+  sort_order: 3
+  pset: FZAG_Bauhindernis_Spundwand
+  definition:
+    de: Querschnittsform der Spundbohle an, z. B. U‑Profil (PU), Z‑Profil (AZ) oder Sonderprofile, welche das Trag‑ und Verformungsverhalten bestimmen.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/typ-profil-spundwand
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: Tragfähigkeit
+  sort_order: 4
+  pset: FZAG_Bauhindernis_Spundwand
+  definition:
+    de: Biegesteifigkeit bzw. Tragfähigkeit des Profils, meist angegeben über das Widerstandsmoment (z. B. PU 28 ≈ 2 800 cm³/m).
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcReal
+  unit: m³
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: Material
+  sort_order: 5
+  pset: FZAG_Bauhindernis_Spundwand
+  definition:
+    de: Werkstoff der Spundbohle, in der Regel Stahl (mit definierter Güte), seltener Beton, Kunststoff, inklusive Korrosionsschutz.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/material-spundwand
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: Ausbildung
+  sort_order: 6
+  pset: FZAG_Bauhindernis_Spundwand
+  definition:
+    de: statische und bauliche Einbindung der Spundwand, z. B. rückverankert, ausgesteift
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/ausbildung-spundwand
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: Status
+  sort_order: 7
+  pset: FZAG_Bauhindernis_Spundwand
+  definition:
+    de: dauerhaft im Boden verbleiben
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/bauhindernis-status
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: Länge
+  sort_order: 8
+  pset: FZAG_Bauhindernis_Spundwand
+  definition:
+    de: Länge in Meter
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcReal
+  unit: m
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: PredefinedType
+  sort_order: 9
+  pset: null
+  definition:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/sheet
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: Subtyp
+  pset: FZAG_Allgemein
+  definition:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/manual-spundwand
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 2
+  link_uid: ''

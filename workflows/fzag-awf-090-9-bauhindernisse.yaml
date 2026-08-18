@@ -1,0 +1,20 @@
+id: fzag:workflow/fzag-awf-090-9-bauhindernisse
+sort_order: 28
+code: FZAG-AWF-090.4
+name:
+  de: Bauhindernisse
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Alle verbleibenden Elemente die im Erdreich verbleiben werden für die Nachführung im Modell geliefert. (Bauhindernisse, Anker, Borhpfähle, Schalungen, Spundwände, Fundamente).
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: 01 Idea
+needed_in_domain:
+- fzag:domain/kunstbauten-o
+comment: ''
+parent_workflow: fzag:workflow/fzag-awf-090-modellbasierte-ausfuhrungsplanung-bim2field
+workflow_group: Standard

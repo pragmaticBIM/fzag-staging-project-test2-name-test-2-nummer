@@ -1,0 +1,25 @@
+id: fzag:value/bankettmaterial
+name:
+  de: Material Bankett
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Material
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Oberboden
+  - Kies 0/45
+  - Fuellsand
+  - Schotter
+  - Fluessigboden
+  - Beton- und Mischabbruchgranulat
+  fr: []
+  it: []
+  en: []

@@ -1,0 +1,22 @@
+id: fzag:workflow/fzag-awf-020-3-bezeichnung-elektroschachte
+sort_order: 13
+code: FZAG-AWF-020.6
+name:
+  de: Bezeichnung Elektroschächte
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Elektroschächte sind nach Angaben Elektroplaner und den Koordinaten zu bezeichnen. Die Bezeichnung Planer sollte durch die Bezeichnung FZAG im Fachmodell ersetzt werden.
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: active
+needed_in_domain:
+- fzag:domain/elektroanlagen-m
+- fzag:domain/elektroanlagen-o
+- fzag:domain/technische-ausruestung
+comment: ''
+parent_workflow: fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+workflow_group: Standard

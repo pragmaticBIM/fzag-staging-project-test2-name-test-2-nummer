@@ -1,0 +1,22 @@
+id: fzag:value/anschlussart
+name:
+  de: Art Anschlussfuge
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Art des Fugenanschlusses
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Heissverguss
+  - Kaltverguss
+  - Fugenband
+  fr: []
+  it: []
+  en: []

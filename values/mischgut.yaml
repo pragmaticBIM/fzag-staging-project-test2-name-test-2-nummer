@@ -1,0 +1,23 @@
+id: fzag:value/mischgut
+name:
+  de: Mischgut
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Typ des Mischguts
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - L
+  - N
+  - S
+  - H
+  fr: []
+  it: []
+  en: []

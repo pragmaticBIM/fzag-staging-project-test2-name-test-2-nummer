@@ -1,0 +1,22 @@
+id: fzag:value/profil-pfahl
+name:
+  de: Typ Profil Pfahl
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - Beton
+  - Stahl
+  - Holz
+  fr: []
+  it: []
+  en: []

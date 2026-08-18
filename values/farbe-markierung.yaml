@@ -1,0 +1,22 @@
+id: fzag:value/farbe-markierung
+name:
+  de: Farbe Markierung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Farbe der Markierung
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Weiss
+  - Gelb
+  - Gruen
+  fr: []
+  it: []
+  en: []

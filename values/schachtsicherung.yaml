@@ -1,0 +1,22 @@
+id: fzag:value/schachtsicherung
+name:
+  de: Schachtsicherung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Sicherung der Schachtabdeckung
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - verschraubt
+  - unverschraubt
+  - aufklappbar
+  fr: []
+  it: []
+  en: []

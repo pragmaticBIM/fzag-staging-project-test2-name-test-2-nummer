@@ -1,0 +1,17 @@
+id: fzag:workflow/modellbasierte-trassee-elektroplanung
+code: FZAG-AWF-020.7
+name:
+  de: Beschriftung Fugen
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: gemäss FN - Beschriftung enthaltet Fugentyp und Länge pro Fugentyp -> siehe Abbildung und Werteliste (Definition Element und Values noch pendent - aufgabe FZAG PICJ)
+  fr: ''
+  it: ''
+  en: ''
+workflow_group: Standard
+parent_workflow: fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+picture_link: null
+status: active
+comment: ''

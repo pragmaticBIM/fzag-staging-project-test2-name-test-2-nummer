@@ -1,0 +1,22 @@
+id: fzag:value/verbesserter-untergrund
+name:
+  de: Verbesserter Untergrund
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Typ des Materials
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Zement
+  - Kalk
+  - Dorosol
+  fr: []
+  it: []
+  en: []

@@ -1,0 +1,335 @@
+id: fzag:element/anker
+sort_order: 38
+status: active
+name:
+  de: Anker
+  fr: ''
+  it: ''
+  en: ''
+needed_in_domain:
+- fzag:domain/bauhindernisse
+definition:
+  de: Ein Anker ist ein zugbeanspruchtes, in den Boden oder Fels eingebrachtes Tragglied, das Kräfte aus Stützbauwerken (z. B. Spundwänden, Pfahlwänden oder Mauern) in tragfähige Bodenschichten ableitet.
+    Daueranker bestehen aus einer freien Länge und einer Verpresslänge und verbleiben nach Abschluss der Bauarbeiten dauerhaft im Baugrund.
+  fr: ''
+  it: ''
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcTendon
+entity_ifc4_3: IfcTendon
+picture_link: anker.webp
+model_link: null
+applicability: entity_ifc4=IfcPile
+attributes:
+- name: System
+  sort_order: 1
+  pset: FZAG_Bauhindernis_Anker
+  definition:
+    de: systematische Ausführung des Ankers, z. B. Litzenanker, Stabanker, Rohranker oder Selbstbohranker.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/system-anker
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: Profil
+  sort_order: 2
+  pset: FZAG_Bauhindernis_Anker
+  definition:
+    de: tragende Querschnittsform des Ankerkörpers an, z. B. Mehrlitzsystem, Vollstab (Gewindestab) oder Hohlstab/Rohr.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/profil-anker
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: Material
+  sort_order: 3
+  pset: FZAG_Bauhindernis_Anker
+  definition:
+    de: Werkstoffe des Ankers, in der Regel Spannstahl oder Baustahl, inklusive Verpressmaterial und Korrosionsschutz.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/material-anker
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: Ausbildung
+  sort_order: 4
+  pset: FZAG_Bauhindernis_Anker
+  definition:
+    de: bauliche und statische Ausbildung des Ankers, insbesondere freie Länge, Verpresslänge, Vorspannung sowie Art der Kraftübertragung in den Boden.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/ausbildung-anker
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: Status
+  sort_order: 5
+  pset: FZAG_Bauhindernis_Anker
+  definition:
+    de: dauerhaft im Boden verbleiben
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/bauhindernis-status
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: Länge
+  sort_order: 6
+  pset: FZAG_Bauhindernis_Anker
+  definition:
+    de: Länge in Meter
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcReal
+  unit: m
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: Neigung
+  sort_order: 7
+  pset: FZAG_Bauhindernis_Anker
+  definition:
+    de: Neigungswinkel (Grad) des Ankers zur Horizontalen an und beschreibt damit die geometrische Ausrichtung und Wirkungsrichtung der Zugkraft.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcReal
+  unit: °
+  allowed_values: null
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: Subtyp
+  sort_order: 9
+  pset: FZAG_Allgemein
+  definition:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/subtype-fzag-allgemein-spundwand-2
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: PredefinedType
+  sort_order: 9
+  pset: null
+  definition:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/anchor
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+- name: Subtyp
+  sort_order: 9
+  pset: FZAG_Allgemein
+  definition:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/subtype-fzag-allgemein-spundwand-2
+  link_uid: ''
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active

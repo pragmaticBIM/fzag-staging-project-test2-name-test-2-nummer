@@ -1,0 +1,76 @@
+id: fzag:element/strassenabschnitt
+sort_order: 4
+status: active
+name:
+  de: Strassenabschnitt
+  fr: ''
+  it: ''
+  en: ''
+needed_in_domain:
+- fzag:domain/gelande-dtm
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+- fzag:domain/trinkwasser
+- fzag:domain/elektroanlagen-o
+- fzag:domain/entwaesserung
+- fzag:domain/technische-ausruestung
+- fzag:domain/materialkennwert
+- fzag:domain/geologie
+- fzag:domain/elektroanlagen-m
+- fzag:domain/gebaude-m
+- fzag:domain/kunstbauten-o
+- fzag:domain/flughafen-fixpunkte
+- fzag:domain/werkleitungen-medium
+- fzag:domain/airfield-technics
+- fzag:domain/bauhindernisse
+- fzag:domain/geodaten
+- fzag:domain/amtliche-vermessung
+- fzag:domain/3d-gebaude
+- fzag:domain/enteisung
+- fzag:domain/fernwaerme
+- fzag:domain/projektnullpunkt
+- fzag:domain/rohrpost
+- fzag:domain/sprenganlage
+definition:
+  de: Ein IfcRoadPart ist eine Untergliederung der Strasse, mit der einzelne funktionale oder bauliche Teile modelliert werden können. Typische Beispiele sind Fahrbahnabschnitte, Rampen, Kreuzungen oder
+    Seitenstreifen. Damit lassen sich komplexe Strassenstrukturen hierarchisch und strukturiert darstellen.
+  fr: ''
+  it: ''
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: null
+entity_ifc4_3: IfcRoadPart
+picture_link: null
+model_link: null
+applicability: entity_ifc4_3=IfcRoadPart
+attributes:
+- name: Name
+  pset: null
+  definition:
+    de: Bezeichnung der Abschnitt gemäss Projektdefinition
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 1

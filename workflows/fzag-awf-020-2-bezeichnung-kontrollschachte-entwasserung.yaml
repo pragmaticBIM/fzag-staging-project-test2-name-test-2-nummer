@@ -1,0 +1,23 @@
+id: fzag:workflow/fzag-awf-020-2-bezeichnung-kontrollschachte-entwasserung
+sort_order: 12
+code: FZAG-AWF-020.5
+name:
+  de: Bezeichnung Kontrollschächte Entwässerung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: 'Kontrollschächte gemäss ZANIS -> Werkleitungskoordination nachfragen (Ziel: Werkleitungskoordination öffnet das Modell und Attributiert die Schächte direkt im Fachmodell Entwässerung oder als Issues).
+    Die Bezeichnung Planer sollte durch die Bezeichnung FZAG im Fachmodell ersetzt werden.'
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: active
+needed_in_domain:
+- fzag:domain/technische-ausruestung
+- fzag:domain/trinkwasser
+- fzag:domain/entwaesserung
+comment: ''
+parent_workflow: fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+workflow_group: Standard

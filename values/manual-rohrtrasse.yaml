@@ -1,0 +1,22 @@
+id: fzag:value/manual-rohrtrasse
+name:
+  de: Subtyp_FZAG_Allgemein_Rohrtrasse
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Rohrtrasse
+  fr:
+  - Rohrtrasse
+  it:
+  - Rohrtrasse
+  en: []

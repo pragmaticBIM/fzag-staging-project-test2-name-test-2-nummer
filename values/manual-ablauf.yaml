@@ -1,0 +1,22 @@
+id: fzag:value/manual-ablauf
+name:
+  de: Subtyp_FZAG_Allgemein_Ablauf
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Ablauf
+  fr:
+  - Ablauf
+  it:
+  - Ablauf
+  en: []

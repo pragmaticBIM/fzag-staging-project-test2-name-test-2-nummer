@@ -1,0 +1,28 @@
+id: fzag:value/nutzungsart-betonrohr
+name:
+  de: Nutzungsart Betonrohr
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Medium
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Schmutzabwasser
+  - Mischabwasser
+  - Regenabwasser
+  - Enteiserabwasser
+  - Sickerabwasser
+  - Industrieabwasser
+  - Reinabwasser
+  - Bachabwasser
+  - Kuehlabwasser
+  fr: []
+  it: []
+  en: []

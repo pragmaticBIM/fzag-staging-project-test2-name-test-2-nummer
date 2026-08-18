@@ -1,0 +1,20 @@
+id: fzag:value/storage
+name:
+  de: STORAGE
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - STORAGE
+  fr: []
+  it: []
+  en: []

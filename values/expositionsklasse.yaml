@@ -1,0 +1,28 @@
+id: fzag:value/expositionsklasse
+name:
+  de: Expositionsklasse
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Expositionsklasse
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - X0
+  - XC2
+  - XC3
+  - XC4
+  - XF1
+  - XF2
+  - XF4
+  - XD1
+  - XD3
+  fr: []
+  it: []
+  en: []

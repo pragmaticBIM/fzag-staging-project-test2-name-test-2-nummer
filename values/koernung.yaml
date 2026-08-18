@@ -1,0 +1,24 @@
+id: fzag:value/koernung
+name:
+  de: Koernung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Grösskorn der Schicht
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - '8'
+  - '11'
+  - '16'
+  - '22'
+  - '32'
+  fr: []
+  it: []
+  en: []

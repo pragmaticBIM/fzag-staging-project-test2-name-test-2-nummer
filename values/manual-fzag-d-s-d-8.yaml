@@ -1,0 +1,22 @@
+id: fzag:value/manual-fzag-d-s-d-8
+name:
+  de: MK_Sondage ID-Nr_FZAG_Materialkennwert_Bohrkern und Sondage
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: 'Eindeutige ID-Nummer der Sondage (gemäss Namenskonvention: FZAG-{Exportnummer}_S_{Datum im Format JJMMTT}_{Freitext}'
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - ^FZAG-(\d+)_S_(\d{8})_(.+)$
+  fr:
+  - ^FZAG-(\d+)_S_(\d{8})_(.+)$
+  it:
+  - ^FZAG-(\d+)_S_(\d{8})_(.+)$
+  en: []

@@ -1,0 +1,23 @@
+id: fzag:value/status-entwaesserung
+name:
+  de: Status Entwaesserung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: deprecated
+values:
+  de:
+  - In Betrieb
+  - Ausser Betrieb
+  - Tot/Aufgehoben - nicht verfüllt
+  - Tot/Aufgehoben - verfüllt
+  fr: []
+  it: []
+  en: []

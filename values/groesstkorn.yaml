@@ -1,0 +1,20 @@
+id: fzag:value/groesstkorn
+name:
+  de: Groesstkorn
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Groesstkorn
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - '32'
+  fr: []
+  it: []
+  en: []

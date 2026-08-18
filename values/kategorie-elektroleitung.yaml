@@ -1,0 +1,21 @@
+id: fzag:value/kategorie-elektroleitung
+name:
+  de: Typ Elektroleitung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Art der Leitung
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Rohrtrassee
+  - Kabelschutzrohr
+  fr: []
+  it: []
+  en: []

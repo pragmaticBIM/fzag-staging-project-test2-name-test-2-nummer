@@ -1,0 +1,22 @@
+id: fzag:value/manual-zementbelag
+name:
+  de: Subtyp_FZAG_Allgemein_Zementbelag
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Betonplatte
+  fr:
+  - Zementbelag
+  it:
+  - Zementbelag
+  en: []

@@ -1,0 +1,43 @@
+id: fzag:value/typ-rinne
+name:
+  de: Typ Rinne
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Typ der Rinne
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - ACO Monoblock S Airport (Schlitzrinne ACO Monoblock S Airport Klasse F900 - wird nicht mehr bestellt)
+  - ACO+ Einzel ohne RÖ 1.0m (Schlitzrinne ACO+ ohne Revisionsöffnung Klasse F900 gem. FN 2-130
+  - Element 1.0m)
+  - ACO+ Einzel ohne RÖ 2.5m (Schlitzrinne ACO+ ohne Revisionsöffnung Klasse F900 gem. FN 2-130
+  - Element 2.5m)
+  - ACO+ Einzel mit RÖ mit Ablauf (Schlitzrinne ACO+ mit Revisionsöffnung Klasse F900 gem. FN 2-131
+  - Element 1.0m mit Ablauf)
+  - ACO+ Einzel mit RÖ ohne Ablauf (Schlitzrinne ACO+ mit Revisionsöffnung Klasse F900 gem. FN 2-131
+  - Element 1.0m ohne Ablauf)
+  - ACO+ Doppel ohne RÖ 1.0m (Doppel Schlitzrinne ACO+ ohne Revisionsöffnung Klasse F900 gem. FN 2-130
+  - Element 1.0m)
+  - ACO+ Doppel ohne RÖ 2.5m (Doppel Schlitzrinne ACO+ ohne Revisionsöffnung Klasse F900 gem. FN 2-130
+  - Element 2.5m)
+  - ACO+ Doppel mit RÖ mit Ablauf (Doppel Schlitzrinne ACO+ mit Revisionsöffnung Klasse F900 gem. FN 2-131
+  - Element 1.0m mit Ablauf)
+  - ACO+ Doppel mit RÖ ohne Ablauf (Doppel Schlitzrinne ACO+ mit Revisionsöffnung Klasse F900 gem. FN 2-131
+  - Element 1.0m ohne Ablauf)
+  - 'BIRCO Typ A (Schlitzrinne BIRCO Typ A Klasse F900 gem. FN 2-110 - Typ A: ohne Ablauf)'
+  - 'BIRCO Typ A1 (Schlitzrinne BIRCO Typ A1 Klasse F900 gem. FN 2-111 - Typ A1: mit Ablauf Rand)'
+  - 'BIRCO Typ A2 (Schlitzrinne BIRCO Typ A2 Klasse F900 gem. FN 2-111 - Typ A2: mit Ablauf Mitte)'
+  - 'BIRCO Typ D (Doppel-Schlitzinne BIRCO Typ D Klasse F900 gem. FN 2-112 - Typ D: ohne Ablauf)'
+  - 'BIRCO Typ D1 (Doppel-Schlitzinne BIRCO Typ D Klasse F900 gem. FN 2-113 - Typ D1: mit Ablauf Rand)'
+  - 'BIRCO Typ D2 (Doppel-Schlitzinne BIRCO Typ D Klasse F900 gem. FN 2-113 - Typ D2: mit Ablauf Mitte)'
+  - Mauderli (Schlitzrinne Mauderli)
+  fr: []
+  it: []
+  en: []

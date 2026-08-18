@@ -1,0 +1,21 @@
+id: fzag:value/zauntyp
+name:
+  de: Typ Zaun
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Typ des Zauns
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Normalfall
+  - Spezialfall
+  fr: []
+  it: []
+  en: []

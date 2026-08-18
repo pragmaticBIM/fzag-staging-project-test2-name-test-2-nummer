@@ -1,0 +1,21 @@
+id: fzag:domain/materialkennwert
+sort_order: 8
+name:
+  de: Materialkennwert
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: 'Bestandsmodell - beinhaltet die Modellelemente Materialkennwert (Sondage und Bohrkerne)
+
+
+    As-built Modell - beinhaltet das Modellelement Materialkennwert'
+  fr: ''
+  it: ''
+  en: ''
+status: wip
+file_name:
+  de: '{Projekt-Nr.}_B_Sondage, {Projekt-Nr.}_B_Bohrkerne'
+  fr: ''
+  it: ''
+  en: ''

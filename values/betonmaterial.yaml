@@ -1,0 +1,24 @@
+id: fzag:value/betonmaterial
+name:
+  de: Material Beton
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Beton NPK D
+  - Beton NPK G
+  - Schnellbeton Typ Concretum Q-Flash 2/20
+  - C25/30
+  - RC-Beton
+  fr: []
+  it: []
+  en: []

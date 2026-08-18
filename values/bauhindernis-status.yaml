@@ -1,0 +1,20 @@
+id: fzag:value/bauhindernis-status
+name:
+  de: Status Bauhindernis
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: dauerhaft im Boden verbleiben
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - Permanent
+  fr: []
+  it: []
+  en: []

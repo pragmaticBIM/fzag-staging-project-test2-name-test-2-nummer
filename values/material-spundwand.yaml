@@ -1,0 +1,22 @@
+id: fzag:value/material-spundwand
+name:
+  de: Material Spundwand
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Werkstoff der Spundbohle, in der Regel Stahl (mit definierter Güte), seltener Beton, Kunststoff, inklusive Korrosionsschutz.
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - Stahl
+  - Kunststoff
+  - Beton
+  fr: []
+  it: []
+  en: []

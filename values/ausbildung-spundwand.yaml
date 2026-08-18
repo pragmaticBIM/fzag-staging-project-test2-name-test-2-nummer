@@ -1,0 +1,21 @@
+id: fzag:value/ausbildung-spundwand
+name:
+  de: Ausbildung Spundwand
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: statische und bauliche Einbindung der Spundwand, z. B. rückverankert, ausgesteift
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - verankert
+  - ausgesteift
+  fr: []
+  it: []
+  en: []

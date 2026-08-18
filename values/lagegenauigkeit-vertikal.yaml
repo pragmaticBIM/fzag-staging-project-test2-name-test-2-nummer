@@ -1,0 +1,24 @@
+id: fzag:value/lagegenauigkeit-vertikal
+name:
+  de: Lagegenauigkeit Vertikal
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Quantifizierung der Lagegenauigkeit Vertikal
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: deprecated
+values:
+  de:
+  - LOA-V-10 (>50mm)
+  - LOA-V-20 (15-50mm)
+  - LOA-V-30 (5-15mm)
+  - LOA-V-40 (1-5mm)
+  - LOA-V-50 (0-1mm)
+  fr: []
+  it: []
+  en: []

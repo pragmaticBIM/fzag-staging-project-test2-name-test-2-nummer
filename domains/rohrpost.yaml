@@ -1,0 +1,17 @@
+id: fzag:domain/rohrpost
+name:
+  de: Rohrpost
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: Bestandsmodell FZAG - Das Rohrpostmodell für das Projektperimeter kann bei der Werkleitungskoordination für den Projektstart angefordert werden.
+  fr: ''
+  it: ''
+  en: ''
+file_name:
+  de: '{Projekt-Nr.}_B_Rohrpost'
+  fr: ''
+  it: ''
+  en: ''
+status: active

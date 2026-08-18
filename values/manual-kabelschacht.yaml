@@ -1,0 +1,22 @@
+id: fzag:value/manual-kabelschacht
+name:
+  de: Subtyp_FZAG_Allgemein_Kabelschacht
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Kabelschacht
+  fr:
+  - Kabelschacht
+  it:
+  - Kabelschacht
+  en: []

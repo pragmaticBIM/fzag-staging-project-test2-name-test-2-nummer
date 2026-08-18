@@ -1,0 +1,18 @@
+id: fzag:domain/gebaude-m
+sort_order: 14
+name:
+  de: Gebäude M
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: Bestandsmodell FZAG - Die CAD-Daten für die Gebäude im Eigentum von der Abteilung M für das Projektperimeter kann bei den Gebäudedaten für den Projektstart angefordert werden.
+  fr: ''
+  it: ''
+  en: ''
+status: wip
+file_name:
+  de: siehe Namenskonvention "Real Estate"
+  fr: ''
+  it: ''
+  en: ''

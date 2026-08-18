@@ -1,0 +1,22 @@
+id: fzag:value/belastungsklasse
+name:
+  de: Belastungsklasse
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - F900
+  - E600
+  - D400
+  fr: []
+  it: []
+  en: []
