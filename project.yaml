@@ -1,13 +1,15 @@
-name: New Elementplan Project
-slug: new-project
-client: client-key
-
+name: test2 Name
+slug: test2-name-test-2-nummer
+client: fzag-staging
+project_number: Test 2 Nummer
 languages:
-  - de
-  - en
-
+- de
+- fr
+- it
+- en
 default_language: de
-
 description:
-  de: Neues Elementplan-Projekt — Metadaten beim Anlegen überschreiben
-  en: New Elementplan project — metadata replaced on project creation
+  de: test2 Name
+  en: test2 Name
+master_slug: master-standard
+master_version: v20260818
