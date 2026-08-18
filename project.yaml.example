@@ -1,0 +1,17 @@
+# Project metadata (source of truth in repo; mirrored in manifest.json on publish)
+
+name: Example Project
+slug: example-project
+client: example-client
+
+languages:
+  - de
+  - fr
+  - it
+  - en
+
+default_language: de
+
+description:
+  de: Beispielprojekt für Elementplan
+  en: Example project for Elementplan

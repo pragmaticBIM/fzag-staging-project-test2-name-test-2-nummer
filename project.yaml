@@ -1,0 +1,13 @@
+name: New Elementplan Project
+slug: new-project
+client: client-key
+
+languages:
+  - de
+  - en
+
+default_language: de
+
+description:
+  de: Neues Elementplan-Projekt — Metadaten beim Anlegen überschreiben
+  en: New Elementplan project — metadata replaced on project creation
