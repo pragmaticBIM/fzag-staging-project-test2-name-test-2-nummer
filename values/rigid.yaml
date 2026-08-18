@@ -1,0 +1,20 @@
+id: fzag:value/rigid
+name:
+  de: RIGID
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - RIGID
+  fr: []
+  it: []
+  en: []

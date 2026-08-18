@@ -1,0 +1,20 @@
+id: fzag:workflow/fzag-awf-010-1c-datenabgabe-via-fzag-schnittstelle-gis2bim-treibstoff
+sort_order: 4
+code: FZAG-AWF-010.1c
+name:
+  de: Datenabgabe via FZAG Schnittstelle GIS2BIM- Treibstoff
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Abgabe der bestehenden Treibstoff Werkleitungsdaten durch die Werkleitungskoordination FZAG.
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: 02 WIP
+needed_in_domain:
+- fzag:domain/werkleitungen-medium
+comment: ''
+parent_workflow: fzag:workflow/fzag-awf-010-bestandserfassung-und-modellierung
+workflow_group: Standard

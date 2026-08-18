@@ -1,0 +1,407 @@
+id: fzag:element/kabelschutzrohr
+sort_order: 23
+status: active
+name:
+  de: Kabelschutzrohr
+  fr: ''
+  it: ''
+  en: ''
+needed_in_domain:
+- fzag:domain/elektroanlagen-o
+definition:
+  de: 'Schutzrohr aus Kunststoff zur sicheren Verlegung von Kabeln im Erdreich.
+
+
+    Das Schutzrohr ist als ein zusammenhängendes Element von Kabelschacht zu Kabelschacht zu modellieren.'
+  fr: ''
+  it: ''
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcPipeSegment
+entity_ifc4_3: IfcPipeSegment
+picture_link: kabelschutzrohr.webp
+model_link: null
+applicability: entity_ifc4=IfcPipeSegment
+attributes:
+- name: PredefinedType
+  pset: null
+  definition:
+    de: Spezifiziert um welches Element es sich handelt.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/rigidsegment
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 1
+- name: Bauunternehmung
+  pset: FZAG_Allgemein
+  definition:
+    de: Ausführende Firma
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: deprecated
+  sort_order: 2
+- name: Eigentuemer
+  pset: FZAG_Allgemein
+  definition:
+    de: Eigentümer der Infrastruktur
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/eigentuemer
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 3
+- name: Einbaujahr
+  pset: FZAG_Allgemein
+  definition:
+    de: Datum (JJJJ)
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcInteger
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 4
+- name: Flughafen Normalien
+  pset: FZAG_Allgemein
+  definition:
+    de: Nummer der Flughafen-Normalien z. B. FN_2-301
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 5
+- name: Ingenieurfirma
+  pset: FZAG_Allgemein
+  definition:
+    de: Planer, Ingenieur
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 6
+- name: Lagegenauigkeit Horizontal
+  pset: FZAG_Allgemein
+  definition:
+    de: Quantifizierung der Lagegenauigkeit Horizontal
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/lagegenauigkeit-horizontal
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 7
+- name: Lagegenauigkeit Vertikal
+  pset: FZAG_Allgemein
+  definition:
+    de: Quantifizierung der Lagegenauigkeit Vertikal
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/lagegenauigkeit-vertikal
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: deprecated
+  sort_order: 8
+- name: Subtyp
+  pset: FZAG_Allgemein
+  definition:
+    de: Spezifiziert um welches Element es sich handelt. Anhand von diesem Property, wir die Anwendbarkeit (Applicability) im IDS Geprüft geprüft.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/manual-kabelschutzrohr
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: true
+  status: deprecated
+  sort_order: 9
+- name: Verantwortliche baulicher Unterhalt
+  pset: FZAG_Allgemein
+  definition:
+    de: Organisation verantwortlich für den baulichen Unterhalt
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/eigentuemer
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: deprecated
+  sort_order: 10
+- name: EAL_Durchmesser
+  pset: FZAG_Elektroanlagen_Leitungen
+  definition:
+    de: Durchmesser des Kabelschutzrohres in mm
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  unit: mm
+  allowed_values: fzag:value/durchmesser-kabelschutzrohr
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-010-1b-datenabgabe-via-fzag-schnittstelle-gis2bim-elektro
+  - fzag:workflow/fzag-awf-010-bestandserfassung-und-modellierung
+  - fzag:workflow/fzag-awf-020-5-modellbasierte-trassee-elektroplanung
+  - fzag:workflow/fzag-awf-030-modellbasierte-koordination
+  - fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+  - fzag:workflow/fzag-awf-020-6-modellbasierte-kontrolle-der-projektierung
+  - fzag:workflow/fzag-awf-021-datenqualitatsprufung
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-090-modellbasierte-ausfuhrungsplanung-bim2field
+  - fzag:workflow/fzag-awf-090-6-datenaufnahme-der-ausgefuhrten-arbeiten-field2gis
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 11
+- name: EA_Status
+  pset: FZAG_Elektroanlagen_Leitungen
+  definition:
+    de: Dieses Status Attribut dient dem Import für das FM/GIS.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/status-elektro
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-010-1b-datenabgabe-via-fzag-schnittstelle-gis2bim-elektro
+  - fzag:workflow/fzag-awf-010-bestandserfassung-und-modellierung
+  - fzag:workflow/fzag-awf-020-5-modellbasierte-trassee-elektroplanung
+  - fzag:workflow/fzag-awf-020-6-modellbasierte-kontrolle-der-projektierung
+  - fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-021-datenqualitatsprufung
+  - fzag:workflow/fzag-awf-090-6-datenaufnahme-der-ausgefuhrten-arbeiten-field2gis
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-090-modellbasierte-ausfuhrungsplanung-bim2field
+  is_applicability: false
+  status: active
+  sort_order: 12

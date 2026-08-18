@@ -1,0 +1,22 @@
+id: fzag:value/predefinedtype
+name:
+  de: PredefinedType Bauhindernisse Fundament
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - PAD_FOOTING
+  - STRIP_FOOTING
+  - PILE_CAP
+  fr: []
+  it: []
+  en: []

@@ -1,0 +1,22 @@
+id: fzag:domain/entwaesserung
+sort_order: 6
+name:
+  de: Entwaesserung
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: 'Bestandsmodell FZAG - Das Entwaesserungsmodell für das Projektperimeter kann bei der Werkleitungskoordination für den Projektstart angefordert werden.
+
+
+    Projektmodell (Neubau und Abbruch) - beinhaltet die Modellelemente: z. B. Entwässerungsrinne und Halbschale, Entwässerungsschacht, Entwässerungsleitung, Entwässerungssickerleitung, Entwässerungsspezialbauwerk'
+  fr: ''
+  it: ''
+  en: ''
+status: active
+file_name:
+  de: '{Projekt-Nr.}_B_Leitung, {Projekt-Nr.}_B_Schacht, {Projekt-Nr.}_B_Rinne, {Projekt-Nr.}_B_SBW{Projekt-Nr.}_N_{SIA-Phase}_Leitung, {Projekt-Nr.}_N_{SIA-Phase}_Schacht, {Projekt-Nr.}_N_{SIA-Phase}_Rinne,
+    {Projekt-Nr.}_N_{SIA-Phase}_SBW{Projekt-Nr.}_A_{SIA-Phase}_Leitung, {Projekt-Nr.}_A_{SIA-Phase}_Schacht, {Projekt-Nr.}_A_{SIA-Phase}_Rinne, {Projekt-Nr.}_A_{SIA-Phase}_SBW'
+  fr: ''
+  it: ''
+  en: ''

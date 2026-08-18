@@ -1,0 +1,52 @@
+id: fzag:element/kranfundamente
+sort_order: 41
+status: active
+name:
+  de: Kranfundamente
+  fr: ''
+  it: ''
+  en: ''
+needed_in_domain:
+- fzag:domain/technische-ausruestung
+definition:
+  de: Als massives Fundamentvolumen im Boden modellieren. Das Objekt stellt das effektive Fundamentvolumen dar.
+  fr: ''
+  it: ''
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcFooting
+entity_ifc4_3: IfcFooting
+picture_link: null
+model_link: null
+applicability: entity_ifc4=IfcFooting
+attributes:
+- name: Subtyp
+  pset: FZAG_Allgemein
+  definition:
+    de: Spezifiziert um welches Element es sich handelt. Anhand von diesem Property, wir die Anwendbarkeit (Applicability) im IDS Geprüft geprüft.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/manual-kranfundament
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-090-9-bauhindernisse
+  is_applicability: true
+  status: active
+  sort_order: 1

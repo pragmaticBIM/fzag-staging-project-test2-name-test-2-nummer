@@ -1,0 +1,24 @@
+id: fzag:value/status-trinkwasser
+name:
+  de: Status Trinkwasser
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Dieses Status Attribut dient dem Import für das GIS.
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: deprecated
+values:
+  de:
+  - In Betrieb
+  - Ausser Betrieb
+  - Provisorisch
+  - Reserve
+  - Tot
+  fr: []
+  it: []
+  en: []

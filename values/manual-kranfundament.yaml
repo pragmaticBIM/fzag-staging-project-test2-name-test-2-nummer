@@ -1,0 +1,22 @@
+id: fzag:value/manual-kranfundament
+name:
+  de: Subtyp_FZAG_Allgemein_Kranfundamente
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: deprecated
+values:
+  de:
+  - Kranfundament
+  fr:
+  - Kranfundament
+  it:
+  - Kranfundament
+  en: []

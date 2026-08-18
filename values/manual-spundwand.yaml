@@ -1,0 +1,22 @@
+id: fzag:value/manual-spundwand
+name:
+  de: Subtyp_FZAG_Allgemein_Spundwand
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Spundwand
+  fr:
+  - Spundwand
+  it:
+  - Spundwand
+  en: []

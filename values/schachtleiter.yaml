@@ -1,0 +1,21 @@
+id: fzag:value/schachtleiter
+name:
+  de: Schachtleiter
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Ja/Nein
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Ja
+  - Nein
+  fr: []
+  it: []
+  en: []

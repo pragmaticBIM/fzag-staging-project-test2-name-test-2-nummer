@@ -1,0 +1,22 @@
+id: fzag:domain/elektroanlagen-o
+sort_order: 5
+name:
+  de: Elektroanlagen O
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: 'Bestandsmodell FZAG - Das Elektromodell O für das Projektperimeter kann bei der Werkleitungskoordination für den Projektstart angefordert werden.
+
+
+    Projektmodell (Neubau und Abbruch) - beinhaltet die Modellelemente: z. B. Elektro-Schacht, Elektro-Leitung, Unterflurfeuer, Sensorschlaufe'
+  fr: ''
+  it: ''
+  en: ''
+status: active
+file_name:
+  de: '{Projekt-Nr.}_B_Rohr, {Projekt-Nr.}_B_Schacht{Projekt-Nr.}_N_{SIA-Phase}_Rohr, {Projekt-Nr.}_N_{SIA-Phase}_Schacht, {Projekt-Nr.}_N_{SIA-Phase}_Trasse, {Projekt-Nr.}_N_{SIA-Phase}_Schlaufe, {Projekt-Nr.}_N_{SIA-Phase}_Einbauschale {Projekt-Nr.}_A_{SIA-Phase}_Rohr,
+    {Projekt-Nr.}_A_{SIA-Phase}_Schacht, {Projekt-Nr.}_A_{SIA-Phase}_Trasse, {Projekt-Nr.}_A_{SIA-Phase}_Schlaufe, {Projekt-Nr.}_A_{SIA-Phase}_Einbauschale'
+  fr: ''
+  it: ''
+  en: ''

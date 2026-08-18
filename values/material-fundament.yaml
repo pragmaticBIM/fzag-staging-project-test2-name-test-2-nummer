@@ -1,0 +1,21 @@
+id: fzag:value/material-fundament
+name:
+  de: Material Fundament
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Werkstoff des Fundaments, in der Regel (Stahl‑)Beton, gegebenenfalls mit Angaben zur Bewehrung und Betonfestigkeitsklasse.
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - Beton
+  - Stahlbeton
+  fr: []
+  it: []
+  en: []

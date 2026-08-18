@@ -1,0 +1,31 @@
+id: fzag:value/material-entwaesserungsleitung
+name:
+  de: Material Entwaesserungsleitung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: '-'
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Beton armiert
+  - Schleuderbeton
+  - Vorgespannt
+  - Pressrohrbeton
+  - Spezialbeton
+  - PP
+  - PE
+  - HDPE
+  - GUP
+  - GFK
+  - Polyester
+  - Epoxidhartz
+  fr: []
+  it: []
+  en: []

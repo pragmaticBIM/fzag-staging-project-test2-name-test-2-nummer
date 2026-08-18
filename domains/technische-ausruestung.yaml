@@ -1,0 +1,22 @@
+id: fzag:domain/technische-ausruestung
+sort_order: 7
+name:
+  de: Technische Ausruestung
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: 'Bestandsmodell FZAG - Die CAD-Daten für das Projektperimeter können bei der Werkleitungskoordination für den Projektstart angefordert werden.
+
+
+    Projektmodell (Neubau und Abbruch) - beinhaltet die Modellelemente: z. B.  Zaun, Markierung, Anfahrschutz, Signalisation, Betonfundament'
+  fr: ''
+  it: ''
+  en: ''
+status: active
+file_name:
+  de: '{Projekt-Nr.}_B_Zaun, {Projekt-Nr.}_B_Betonfundament{Projekt-Nr.}_N_{SIA-Phase}_Zaun, {Projekt-Nr.}_N_{SIA-Phase}_Betonfundament, {Projekt-Nr.}_N_{SIA-Phase}_Anfahrschutz{Projekt-Nr.}_A_{SIA-Phase}_Zaun,
+    {Projekt-Nr.}_A_{SIA-Phase}_Betonfundament, {Projekt-Nr.}_A_{SIA-Phase}_Anfahrschutz'
+  fr: ''
+  it: ''
+  en: ''

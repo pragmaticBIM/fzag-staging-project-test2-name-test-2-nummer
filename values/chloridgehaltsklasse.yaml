@@ -1,0 +1,21 @@
+id: fzag:value/chloridgehaltsklasse
+name:
+  de: Chloridgehaltsklasse
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Chloridgehaltsklasse
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Cl 0
+  - '10'
+  fr: []
+  it: []
+  en: []

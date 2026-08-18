@@ -1,0 +1,415 @@
+id: fzag:element/randabschluss
+sort_order: 17
+status: active
+name:
+  de: Randabschluss
+  fr: ''
+  it: ''
+  en: ''
+needed_in_domain:
+- fzag:domain/oberbau
+definition:
+  de: Seitlicher Abschluss einer befestigten Fläche, z. B. Bordstein.
+  fr: ''
+  it: ''
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcBuildingElementProxy
+entity_ifc4_3: IfcKerb
+picture_link: null
+model_link: null
+applicability: entity_ifc4=IfcBuildingElementProxy
+attributes:
+- name: Bauunternehmung
+  pset: FZAG_Allgemein
+  definition:
+    de: Ausführende Firma
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 1
+- name: Eigentuemer
+  pset: FZAG_Allgemein
+  definition:
+    de: Eigentümer der Infrastruktur
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/eigentuemer
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 2
+- name: Einbaujahr
+  pset: FZAG_Allgemein
+  definition:
+    de: Datum (JJJJ)
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcInteger
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 3
+- name: Flughafen Normalien
+  pset: FZAG_Allgemein
+  definition:
+    de: Nummer der Flughafen-Normalien z. B. FN_2-301
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 4
+- name: Ingenieurfirma
+  pset: FZAG_Allgemein
+  definition:
+    de: Planer, Ingenieur
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 5
+- name: Lagegenauigkeit Horizontal
+  pset: FZAG_Allgemein
+  definition:
+    de: Quantifizierung der Lagegenauigkeit Horizontal
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/lagegenauigkeit-horizontal
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 6
+- name: Lagegenauigkeit Vertikal
+  pset: FZAG_Allgemein
+  definition:
+    de: Quantifizierung der Lagegenauigkeit Vertikal
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/lagegenauigkeit-vertikal
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 7
+- name: Subtyp
+  pset: FZAG_Allgemein
+  definition:
+    de: Spezifiziert um welches Element es sich handelt. Anhand von diesem Property, wir die Anwendbarkeit (Applicability) im IDS Geprüft geprüft.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/manual-randabschluss
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: true
+  status: active
+  sort_order: 8
+- name: Verantwortliche baulicher Unterhalt
+  pset: FZAG_Allgemein
+  definition:
+    de: Organisation verantwortlich für den baulichen Unterhalt
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/eigentuemer
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 9
+- name: RA_Anschlag
+  pset: FZAG_Randabschluss
+  definition:
+    de: Anschlag des Randabschlusses in cm
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcReal
+  unit: cm
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 10
+- name: RA_Laenge
+  pset: FZAG_Randabschluss
+  definition:
+    de: Länge des Randabschlusses in m > cm ?
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcReal
+  unit: m
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 11
+- name: RA_Typ
+  pset: FZAG_Randabschluss
+  definition:
+    de: Typ des Randabschlusses
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/typ-randabschluss
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 12
+- name: RA_Volumen
+  pset: FZAG_Randabschluss
+  definition:
+    de: Volumen des Versetzbetons m3
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcReal
+  unit: m³
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 13

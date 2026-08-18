@@ -1,0 +1,628 @@
+id: fzag:element/kabelschacht
+sort_order: 25
+status: active
+name:
+  de: Kabelschacht
+  fr: ''
+  it: ''
+  en: ''
+needed_in_domain:
+- fzag:domain/elektroanlagen-o
+definition:
+  de: Schacht zur Verlegung und Wartung von Kabeln im Erdreich.
+  fr: ''
+  it: ''
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: IfcDistributionChamberElement
+entity_ifc4_3: IfcDistributionChamberElement
+picture_link: null
+model_link: null
+applicability: entity_ifc4=IfcDistributionChamberElement
+attributes:
+- name: PredefinedType
+  pset: null
+  definition:
+    de: Spezifiziert um welches Element es sich handelt.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/manhole
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 1
+- name: Bauunternehmung
+  pset: FZAG_Allgemein
+  definition:
+    de: Ausführende Firma
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 2
+- name: Eigentuemer
+  pset: FZAG_Allgemein
+  definition:
+    de: Eigentümer der Infrastruktur
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/eigentuemer
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 3
+- name: Einbaujahr
+  pset: FZAG_Allgemein
+  definition:
+    de: Datum (JJJJ)
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcInteger
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 4
+- name: Flughafen Normalien
+  pset: FZAG_Allgemein
+  definition:
+    de: Nummer der Flughafen-Normalien z. B. FN_2-301
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 5
+- name: Ingenieurfirma
+  pset: FZAG_Allgemein
+  definition:
+    de: Planer, Ingenieur
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 6
+- name: Lagegenauigkeit Horizontal
+  pset: FZAG_Allgemein
+  definition:
+    de: Quantifizierung der Lagegenauigkeit Horizontal
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/lagegenauigkeit-horizontal
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 7
+- name: Lagegenauigkeit Vertikal
+  pset: FZAG_Allgemein
+  definition:
+    de: Quantifizierung der Lagegenauigkeit Vertikal
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/lagegenauigkeit-vertikal
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 8
+- name: Subtyp
+  pset: FZAG_Allgemein
+  definition:
+    de: Spezifiziert um welches Element es sich handelt. Anhand von diesem Property, wir die Anwendbarkeit (Applicability) im IDS Geprüft geprüft.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/manual-kabelschacht
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: true
+  status: active
+  sort_order: 9
+- name: Verantwortliche baulicher Unterhalt
+  pset: FZAG_Allgemein
+  definition:
+    de: Organisation verantwortlich für den baulichen Unterhalt
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/eigentuemer
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: deprecated
+  sort_order: 10
+- name: EAS_Belastungsklasse
+  pset: FZAG_Elektroanlagen_Schacht
+  definition:
+    de: Schachtabdeckung nach EN 124
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/belastungsklasse
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-010-bestandserfassung-und-modellierung
+  - fzag:workflow/fzag-awf-020-6-modellbasierte-kontrolle-der-projektierung
+  - fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-021-datenqualitatsprufung
+  - fzag:workflow/fzag-awf-030-modellbasierte-koordination
+  - fzag:workflow/fzag-awf-090-modellbasierte-ausfuhrungsplanung-bim2field
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 11
+- name: EAS_Erdung
+  pset: FZAG_Elektroanlagen_Schacht
+  definition:
+    de: Ja/Nein
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/erdung
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-010-bestandserfassung-und-modellierung
+  - fzag:workflow/fzag-awf-020-6-modellbasierte-kontrolle-der-projektierung
+  - fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-021-datenqualitatsprufung
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-090-modellbasierte-ausfuhrungsplanung-bim2field
+  - fzag:workflow/fzag-awf-030-modellbasierte-koordination
+  is_applicability: false
+  status: active
+  sort_order: 12
+- name: EAS_Schachtabdeckungsmaterial
+  pset: FZAG_Elektroanlagen_Schacht
+  definition:
+    de: Material der Schachtabdeckung
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/schachtabdeckungsmaterial
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-010-bestandserfassung-und-modellierung
+  - fzag:workflow/fzag-awf-020-6-modellbasierte-kontrolle-der-projektierung
+  - fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-021-datenqualitatsprufung
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-090-modellbasierte-ausfuhrungsplanung-bim2field
+  - fzag:workflow/fzag-awf-030-modellbasierte-koordination
+  is_applicability: false
+  status: active
+  sort_order: 13
+- name: EAS_Schachtdeckelhoehe
+  pset: FZAG_Elektroanlagen_Schacht
+  definition:
+    de: Hoehe des Deckels (gemäss ZANIS Richtlinie)
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcReal
+  unit: mm
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-010-1b-datenabgabe-via-fzag-schnittstelle-gis2bim-elektro
+  - fzag:workflow/fzag-awf-090-6-datenaufnahme-der-ausgefuhrten-arbeiten-field2gis
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-090-modellbasierte-ausfuhrungsplanung-bim2field
+  - fzag:workflow/fzag-awf-030-modellbasierte-koordination
+  - fzag:workflow/fzag-awf-020-6-modellbasierte-kontrolle-der-projektierung
+  - fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-021-datenqualitatsprufung
+  - fzag:workflow/fzag-awf-120-1-datennachfuhrung-via-fzag-schnittstelle-bim2gis-punktelemente
+  is_applicability: false
+  status: active
+  sort_order: 14
+- name: EAS_Schachtsicherung
+  pset: FZAG_Elektroanlagen_Schacht
+  definition:
+    de: Sicherung der Schachtabdeckung
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/schachtsicherung
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-020-6-modellbasierte-kontrolle-der-projektierung
+  - fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-021-datenqualitatsprufung
+  - fzag:workflow/fzag-awf-090-modellbasierte-ausfuhrungsplanung-bim2field
+  - fzag:workflow/fzag-awf-030-modellbasierte-koordination
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 15
+- name: EAS_Schachttyp
+  pset: FZAG_Elektroanlagen_Schacht
+  definition:
+    de: Typ des Schachtes
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/elektroanlagen-typ-schacht
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+  - fzag:workflow/fzag-awf-020-6-modellbasierte-kontrolle-der-projektierung
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-021-datenqualitatsprufung
+  - fzag:workflow/fzag-awf-030-modellbasierte-koordination
+  - fzag:workflow/fzag-awf-090-modellbasierte-ausfuhrungsplanung-bim2field
+  - fzag:workflow/fzag-awf-090-6-datenaufnahme-der-ausgefuhrten-arbeiten-field2gis
+  - fzag:workflow/fzag-awf-120-1-datennachfuhrung-via-fzag-schnittstelle-bim2gis-punktelemente
+  - fzag:workflow/fzag-awf-010-1b-datenabgabe-via-fzag-schnittstelle-gis2bim-elektro
+  - fzag:workflow/fzag-awf-010-bestandserfassung-und-modellierung
+  is_applicability: false
+  status: active
+  sort_order: 16
+- name: EA_Status
+  pset: FZAG_Elektroanlagen_Schacht
+  definition:
+    de: Dieses Status Attribut dient dem Import für das FM/GIS.
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: fzag:value/status-elektro
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-010-1b-datenabgabe-via-fzag-schnittstelle-gis2bim-elektro
+  - fzag:workflow/fzag-awf-020-6-modellbasierte-kontrolle-der-projektierung
+  - fzag:workflow/fzag-awf-010-bestandserfassung-und-modellierung
+  - fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-021-datenqualitatsprufung
+  - fzag:workflow/fzag-awf-030-modellbasierte-koordination
+  - fzag:workflow/fzag-awf-090-modellbasierte-ausfuhrungsplanung-bim2field
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 17
+- name: EAS_Bezeichnung
+  pset: FZAG_Elektroanlagen_Schacht
+  definition:
+    de: 'Schachtnummer (gemäss ZANIS) abgeleitet aus Koordinaten. MIN / MAX sind:
+
+
+      Unten links    2682000,00 / 1254000,00
+
+      Oben rechts  2686000,00 / 1261000,00'
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  is_applicability: false
+  status: active
+  sort_order: 18

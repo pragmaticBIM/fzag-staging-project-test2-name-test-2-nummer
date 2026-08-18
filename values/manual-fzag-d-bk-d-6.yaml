@@ -1,0 +1,22 @@
+id: fzag:value/manual-fzag-d-bk-d-6
+name:
+  de: MK_Bohrkern ID-Nr_FZAG_Materialkennwert_Bohrkern und Sondage
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Eindeutige ID-Nummer des Bohrkerns (gemäss Namenskonvention FZAG-{Exportnummer}_BK_{Datum im Format JJMMTT}_{Freitext}
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - ^FZAG-(\d+)_BK_(\d{6})_(.+)$
+  fr:
+  - ^FZAG-(\d+)_BK_(\d{6})_(.+)$
+  it:
+  - ^FZAG-(\d+)_BK_(\d{6})_(.+)$
+  en: []

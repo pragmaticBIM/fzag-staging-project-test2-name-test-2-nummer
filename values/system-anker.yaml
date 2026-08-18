@@ -1,0 +1,23 @@
+id: fzag:value/system-anker
+name:
+  de: System Anker
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: systematische Ausführung des Ankers, z. B. Litzenanker, Stabanker, Rohranker oder Selbstbohranker.
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - Litzenanker
+  - Stabanker
+  - Rohranker
+  - Selbstbohranker
+  fr: []
+  it: []
+  en: []

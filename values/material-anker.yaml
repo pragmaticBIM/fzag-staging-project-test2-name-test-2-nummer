@@ -1,0 +1,23 @@
+id: fzag:value/material-anker
+name:
+  de: Material Anker
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Werkstoffe des Ankers, in der Regel Spannstahl oder Baustahl, inklusive Verpressmaterial und Korrosionsschutz.
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - Spannstahl
+  - Feinkornstahl
+  - Zementmörtel
+  - Kunststoffhülle/Fett
+  fr: []
+  it: []
+  en: []

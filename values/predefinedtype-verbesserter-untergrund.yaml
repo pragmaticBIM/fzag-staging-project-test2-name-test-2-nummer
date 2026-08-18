@@ -1,0 +1,26 @@
+id: fzag:value/predefinedtype-verbesserter-untergrund
+name:
+  de: PredefinedType Verbesserter Untergrund
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: DYNAMICALLYCOMPACTED … dynamisch verdichtet GROUTED … verpresst (Injektion) REPLACED … ausgetauscht ROLLERCOMPACTED … walzenverdichtet SURCHARGEPRELOADED … durch Auflast vorbelastet VERTICALLYDRAINED
+    … vertikal entwässert
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - DYNAMICALLYCOMPACTED
+  - GROUTED
+  - REPLACED
+  - ROLLERCOMPACTED
+  - SURCHARGEPRELOADED
+  - VERTICALLYDRAINED
+  fr: []
+  it: []
+  en: []

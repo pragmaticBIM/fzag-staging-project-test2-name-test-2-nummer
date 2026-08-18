@@ -1,0 +1,22 @@
+id: fzag:value/material-pfahl
+name:
+  de: Material Pfahl
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Werkstoff des Pfahls, in der Regel Beton oder Stahl, gegebenenfalls mit Bewehrung oder Korrosionsschutz.
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - Beton
+  - Stahl
+  - Holz
+  fr: []
+  it: []
+  en: []

@@ -1,0 +1,22 @@
+id: fzag:value/manual-anfahrtsschutz
+name:
+  de: Subtyp_FZAG_Allgemein_Anfahrschutz
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Typ des Anfahrschutzes
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Anfahrtsschutz
+  fr:
+  - Anfahrtsschutz
+  it:
+  - Anfahrtsschutz
+  en: []

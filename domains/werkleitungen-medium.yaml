@@ -1,0 +1,23 @@
+id: fzag:domain/werkleitungen-medium
+sort_order: 17
+name:
+  de: Werkleitungen Dritte
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: 'Für jedes Medium ist bei unterschiedlichen Bauherren ein eigenes Modell zu liefern. Namen sind z.B.
+
+    - Treibstoff
+
+    - Gas'
+  fr: ''
+  it: ''
+  en: ''
+status: wip
+file_name:
+  de: '{Projekt-Nr.}_B_{Eigentuemer}_Leitung; {Projekt-Nr.}_B_{Eigentuemer}_Schacht{Projekt-Nr.}_N_{Eigentuemer}_{SIA-Phase}_Leitung, {Projekt-Nr.}_N_{Eigentuemer}_{SIA-Phase}_Schacht{Projekt-Nr.}_A_{Eigentuemer}_{SIA-Phase}_Leitung,
+    {Projekt-Nr.}_A_{Eigentuemer}_{SIA-Phase}_Schacht'
+  fr: ''
+  it: ''
+  en: ''

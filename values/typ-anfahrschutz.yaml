@@ -1,0 +1,19 @@
+id: fzag:value/typ-anfahrschutz
+name:
+  de: Typ Anfahrschutz
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Typ des Anfahrschutzes
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de: []
+  fr: []
+  it: []
+  en: []

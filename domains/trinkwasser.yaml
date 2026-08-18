@@ -1,0 +1,22 @@
+id: fzag:domain/trinkwasser
+sort_order: 4
+name:
+  de: Trinkwasser
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: 'Bestandsmodell FZAG - Das Trinkwassermodell für das Projektperimeter kann bei der Werkleitungskoordination für den Projektstart angefordert werden.
+
+
+    Projektmodell (Neubau und Abbruch) - beinhaltet die Modellelemente: z. B. Trinkwasserleitung, Hydrant, Schieber'
+  fr: ''
+  it: ''
+  en: ''
+status: active
+file_name:
+  de: '{Projekt-Nr.}_B_Leitung, {Projekt-Nr.}_B_Hydrant, {Projekt-Nr.}_B_Schieber {Projekt-Nr.}_N_{SIA-Phase}_Leitung, {Projekt-Nr.}_N_{SIA-Phase}_Hydrant, {Projekt-Nr.}_N_{SIA-Phase}_Schieber{Projekt-Nr.}_A_{SIA-Phase}_Leitung,
+    {Projekt-Nr.}_A_{SIA-Phase}_Hydrant, {Projekt-Nr.}_A_{SIA-Phase}_Schieber'
+  fr: ''
+  it: ''
+  en: ''

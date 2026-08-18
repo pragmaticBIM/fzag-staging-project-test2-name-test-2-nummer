@@ -1,0 +1,27 @@
+id: fzag:value/umhuellungsmaterial
+name:
+  de: Material Umhuellung Leitung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Material der Umhüllung
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Beton
+  - Kies
+  - Sand
+  - In Kanal
+  - In Vortriebsrohr
+  - In Kulisse
+  - Pressvortrieb
+  - Betonkies
+  fr: []
+  it: []
+  en: []

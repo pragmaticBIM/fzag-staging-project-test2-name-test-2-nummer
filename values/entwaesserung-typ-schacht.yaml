@@ -1,0 +1,22 @@
+id: fzag:value/entwaesserung-typ-schacht
+name:
+  de: Typ Entwaesserung_Schacht
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Art des Schachtes
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Kontrollschacht
+  - Ablauf
+  - Schlammsammler
+  fr: []
+  it: []
+  en: []

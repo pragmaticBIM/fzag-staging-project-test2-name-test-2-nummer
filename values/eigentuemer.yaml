@@ -1,0 +1,41 @@
+id: fzag:value/eigentuemer
+name:
+  de: Eigentuemer
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - FZAG O
+  - FZAG M
+  - UBAG
+  - IBK
+  - VBG
+  - EKZ
+  - TBA KTZH
+  - AWEL
+  - ASTRA
+  - Armasuisse
+  - Skyguide
+  - SWISS
+  - SR Technics
+  - PRIORA
+  - REGA
+  - Energie360
+  - Erdgas Ostschweiz
+  - Stadt Kloten
+  - Gemeinde Opfikon
+  - Gemeinde Ruemlang
+  - Gemeinde Winkel
+  - Gemeinde Oberglatt
+  fr: []
+  it: []
+  en: []

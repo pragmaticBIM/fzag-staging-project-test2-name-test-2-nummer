@@ -1,0 +1,22 @@
+id: fzag:value/manual-fn
+name:
+  de: Flughafen Normalien_FZAG_Allgemein
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Nummer der Flughafen-Normalien z. B. FN_2-301
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - FN
+  fr:
+  - ^FN
+  it:
+  - ^FN
+  en: []

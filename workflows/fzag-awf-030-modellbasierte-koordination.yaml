@@ -1,0 +1,27 @@
+id: fzag:workflow/fzag-awf-030-modellbasierte-koordination
+sort_order: 16
+code: FZAG-AWF-030
+name:
+  de: Modellbasierte Koordination
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Auf Basis der Modellen werden zusammen mit dem Auftraggeber Koordinationssitzungen zur Entscheidungsfindung und Kontrolle der erforderliche Datenqualität durchgeführt. Diese finden im definierten
+    Rhythmus statt (Projektabhängig), die Modelle und weitere erforderliche Unterlagen sind jeweils 3 bis 5 Tagen im Voraus an den Auftraggeber abzuliefern. Zu Beginn des Projekts ist der Prozess anhand
+    eines Proof of Concept eingehend zu testen und im BEP zu protokollieren.
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: active
+needed_in_domain:
+- fzag:domain/trinkwasser
+- fzag:domain/entwaesserung
+- fzag:domain/technische-ausruestung
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+- fzag:domain/elektroanlagen-o
+- fzag:domain/materialkennwert
+comment: ''
+workflow_group: Standard

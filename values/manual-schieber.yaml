@@ -1,0 +1,22 @@
+id: fzag:value/manual-schieber
+name:
+  de: Subtyp_FZAG_Allgemein_Schieber
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: gemäss Flughafen-Normalien
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Schieber
+  fr:
+  - Schieber
+  it:
+  - Schieber
+  en: []

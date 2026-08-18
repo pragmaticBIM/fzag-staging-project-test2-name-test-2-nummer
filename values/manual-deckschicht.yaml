@@ -1,0 +1,22 @@
+id: fzag:value/manual-deckschicht
+name:
+  de: Subtyp_FZAG_Allgemein_Deckschicht
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Deckschicht
+  fr:
+  - Deckschicht
+  it:
+  - Deckschicht
+  en: []

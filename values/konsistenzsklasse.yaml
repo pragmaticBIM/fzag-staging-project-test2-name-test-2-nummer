@@ -1,0 +1,22 @@
+id: fzag:value/konsistenzsklasse
+name:
+  de: Konsistenzsklasse
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Konsistenzklasse
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - C3
+  - F4
+  - F5
+  fr: []
+  it: []
+  en: []

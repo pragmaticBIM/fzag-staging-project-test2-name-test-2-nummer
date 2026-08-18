@@ -1,0 +1,23 @@
+id: fzag:value/typ-system-pfahl
+name:
+  de: System Pfahl
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Art und Herstellweise des Pfahls, z. B. Bohrpfahl, Rammpfahl, Vollverdrängungspfahl oder Mikropfahl.
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - Bohrpfahl
+  - Rammpfahl
+  - Vollverdrängungspfahl
+  - Mikropfahl
+  fr: []
+  it: []
+  en: []

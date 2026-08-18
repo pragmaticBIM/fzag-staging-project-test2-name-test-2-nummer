@@ -1,0 +1,21 @@
+id: fzag:domain/airfield-technics
+sort_order: 18
+name:
+  de: Airfield technics
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: 'Bestandsmodell FZAG - OMA
+
+
+    Projektmodell - Airfield Ground Lighting, Signalisation, Dock Guidance System, Sensorik, Kabel'
+  fr: ''
+  it: ''
+  en: ''
+status: wip
+file_name:
+  de: siehe Namenskonvention "Airfield technics"
+  fr: ''
+  it: ''
+  en: ''

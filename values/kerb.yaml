@@ -1,0 +1,20 @@
+id: fzag:value/kerb
+name:
+  de: KERB
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - KERB
+  fr: []
+  it: []
+  en: []

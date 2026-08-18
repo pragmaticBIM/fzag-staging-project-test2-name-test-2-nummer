@@ -1,0 +1,31 @@
+id: fzag:value/elektroanlagen-typ-schacht
+name:
+  de: Typ Elektroanlagen_Schacht
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Typ des Schachtes
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Typ IV (ABC) (Typ IV
+  - Anwendungsbereich A
+  - B und C (gross
+  - mit Einstieg))
+  - Typ IV (D) (Typ IV
+  - Anwendungsbereich D)
+  - Typ A (AC) (Typ A
+  - kurz - Anwendungsbereich A und C (mit Dreieckdeckel mit Gelenken))
+  - Typ B (AC) (Typ B
+  - lang - Anwendungsbereich A und C (mit Dreieckdeckel mit Gelenken))
+  - Kabel-Vorschacht Vorfeldturm (Vordertürmen bei Dock's)
+  - Kabel-Vorschacht Signalisation (Einzugshilfe)
+  fr: []
+  it: []
+  en: []

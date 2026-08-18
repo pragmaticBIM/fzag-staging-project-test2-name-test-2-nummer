@@ -1,0 +1,28 @@
+id: fzag:workflow/fzag-awf-070-zirkulares-und-umweltgerechtes-bauen
+sort_order: 21
+code: FZAG-AWF-070
+name:
+  de: Zirkuläres und umweltgerechtes Bauen
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: "Die Bauweise wird so optimiert, dass die Belastung der Umwelt durch die Produktion der Baustoffe und Bauteile, die Bauwerkserrichtung, den Bauwerksbetrieb und den Bauwerksabbruch, so gering wie möglich\
+    \ gehalten wird. Das heisst, das Treibhausgase maximal reduziert werden und der Ressourcenverbrauch auf das Minimum reduziert wird. Diese Info sind durch die Abteilung Sustainability nötig: Bezüglich\
+    \ BIM dann eher, wenn wir den verschiedenen Flächen jeweils Attribute anhängen können. Als mögliche Attribute: \n- „enthält xy% Recyclingmaterial“ \n- „ist zu xy% rezyklierfähig“\n- „THG-Wert von xy\
+    \ kg CO2e/m2 fertige Fläche“"
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: 01 Idea
+needed_in_domain:
+- fzag:domain/trinkwasser
+- fzag:domain/entwaesserung
+- fzag:domain/technische-ausruestung
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+- fzag:domain/elektroanlagen-o
+- fzag:domain/materialkennwert
+comment: ''
+workflow_group: Optional

@@ -1,0 +1,18 @@
+id: fzag:domain/kunstbauten-o
+sort_order: 15
+name:
+  de: Kunstbauten O
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: Bestandsmodell FZAG - Die CAD-Daten für die Kunstbauten im Eigentum der Abteilung O für das Projektperimeter kann bei der Werkleitungskoordination für den Projektstart angefordert werden.
+  fr: ''
+  it: ''
+  en: ''
+status: wip
+file_name:
+  de: '{Projekt-Nr.}_B_Kunstbauten'
+  fr: ''
+  it: ''
+  en: ''

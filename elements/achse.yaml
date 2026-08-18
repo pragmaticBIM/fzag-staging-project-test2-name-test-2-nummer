@@ -1,0 +1,64 @@
+id: fzag:element/achse
+sort_order: 6
+status: wip
+name:
+  de: Achse
+  fr: ''
+  it: ''
+  en: ''
+needed_in_domain:
+- fzag:domain/gelande-dtm
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+- fzag:domain/trinkwasser
+- fzag:domain/elektroanlagen-o
+- fzag:domain/entwaesserung
+- fzag:domain/technische-ausruestung
+- fzag:domain/materialkennwert
+definition:
+  de: 'Ein IfcAlignment beschreibt den geometrischen Verlauf einer Strasse oder Bahntrasse in Form einer Referenzachse. Es besteht aus horizontalen und vertikalen Linien- bzw. Bogenabschnitten und bildet
+    die Grundlage für die Geometrie von Strassen- oder Bahnprojekten. Auf Basis des Alignments können Querprofile und 3D-Geometrien abgeleitet werden.
+
+
+    Wenn mit Ifc4 gearbeitet wird, sollte die Strassenachse als landXML geliefert werden. @Julie Picarel richtig?'
+  fr: ''
+  it: ''
+  en: ''
+entity_ifc2x3: null
+entity_ifc4: null
+entity_ifc4_3: IfcAlignment
+picture_link: null
+model_link: null
+applicability: entity_ifc4_3=IfcAlignment
+attributes:
+- name: Name
+  pset: null
+  definition:
+    de: Bezeichnung der Achse
+    fr: ''
+    it: ''
+    en: ''
+  datatype: IfcLabel
+  allowed_values: null
+  regex:
+    de: ''
+    fr: ''
+    it: ''
+    en: ''
+  needed_in_phases:
+  - '32'
+  - '33'
+  - '41'
+  - '51'
+  - '52'
+  - '53'
+  - '61'
+  ifc_versions:
+  - ifc4
+  - ifc4x3
+  needed_for_workflows:
+  - fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+  - fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+  is_applicability: false
+  status: active
+  sort_order: 1

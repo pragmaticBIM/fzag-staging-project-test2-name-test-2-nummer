@@ -1,0 +1,22 @@
+id: fzag:value/manual-trinkwasserleitung
+name:
+  de: Subtyp_FZAG_Allgemein_Trinkwasserleitung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Trinkwasserleitung
+  fr:
+  - Trinkwasserleitung
+  it:
+  - Trinkwasserleitung
+  en: []

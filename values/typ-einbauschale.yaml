@@ -1,0 +1,24 @@
+id: fzag:value/typ-einbauschale
+name:
+  de: Typ Einbauschale
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Typ der Einbauschale
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Rund 300
+  - Rund 8''
+  - IL20 kurz
+  - IL20 lang
+  - RCL
+  fr: []
+  it: []
+  en: []

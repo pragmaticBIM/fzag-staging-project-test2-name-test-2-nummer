@@ -1,0 +1,21 @@
+id: fzag:value/material-trinkwasser-leitung
+name:
+  de: Material Trinkwasserleitung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Material der Leitung
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Duktilguss mit Faserzementmörtel Umhüllung
+  - HDPE
+  fr: []
+  it: []
+  en: []

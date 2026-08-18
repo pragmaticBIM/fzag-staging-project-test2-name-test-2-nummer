@@ -1,0 +1,17 @@
+id: fzag:domain/sprenganlage
+name:
+  de: Sprenganlage
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: Bestandsmodell FZAG - Das Sprenganlage Modell für das Projektperimeter kann bei der Werkleitungskoordination für den Projektstart angefordert werden.
+  fr: ''
+  it: ''
+  en: ''
+file_name:
+  de: '{Projekt-Nr.}_B_Sprenganlage'
+  fr: ''
+  it: ''
+  en: ''
+status: active

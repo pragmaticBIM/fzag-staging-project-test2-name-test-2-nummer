@@ -1,0 +1,26 @@
+id: fzag:workflow/fzag-awf-010-1a-datenabgabe-via-fzag-schnittstelle-gis2bim-oberbau
+sort_order: 2
+code: FZAG-AWF-010.1a
+name:
+  de: Datenabgabe via FZAG Schnittstelle GIS2BIM - Oberbau
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Abgabe der bestehenden Oberbaudaten durch die Werkleitungskoordination FZAG.
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: 02 WIP
+needed_in_domain:
+- fzag:domain/trinkwasser
+- fzag:domain/entwaesserung
+- fzag:domain/technische-ausruestung
+- fzag:domain/elektroanlagen-o
+- fzag:domain/gelande-dtm
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+comment: ''
+parent_workflow: fzag:workflow/fzag-awf-010-bestandserfassung-und-modellierung
+workflow_group: Standard

@@ -1,0 +1,20 @@
+id: fzag:domain/enteisung
+name:
+  de: Enteisung
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: 'Bestandsmodell FZAG - Das Enteisungsmodell für das Projektperimeter kann bei der Werkleitungskoordination für den Projektstart angefordert werden.
+
+
+    Projektmodell (Neubau und Abbruch) - beinhaltet die Modellelemente: TO BE DEFINED'
+  fr: ''
+  it: ''
+  en: ''
+file_name:
+  de: '{Projekt-Nr.}_B_Enteisung'
+  fr: ''
+  it: ''
+  en: ''
+status: wip

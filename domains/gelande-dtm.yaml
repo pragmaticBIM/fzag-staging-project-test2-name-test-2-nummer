@@ -1,0 +1,18 @@
+id: fzag:domain/gelande-dtm
+sort_order: 1
+name:
+  de: Gelände (DTM)
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: Basismodell FZAG - Das Geländemodell für das Projektperimeter kann bei der Werkleitungskoordination für den Projektstart angefordert werden.
+  fr: ''
+  it: ''
+  en: ''
+status: active
+file_name:
+  de: '{Projekt-Nr.}_DTM'
+  fr: ''
+  it: ''
+  en: ''

@@ -1,0 +1,21 @@
+id: fzag:domain/projektnullpunkt
+name:
+  de: Projektnullpunkt
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: 'Bei Projektbeginn ist ein Projektnullpunkt (PNP) unter Berücksichtigung der Nordrichtung zu definieren. Zur eindeutigen Definition sind DREI Einfüge-Punkte (Form: vierseitige, auf den Kopf gestellte
+    Pyramiden) in jedem Fachmodell hinzuzufügen. Der Projektnullpunkt (Global Offset) wird durch den Auftragnehmer definiert und muss nahe dem geometrischen Mittelpunkt des Projektes gewählt und konsequent
+    in allen Fachmodellen angewendet werden.
+
+    Koordinatensystem: LV95/LN02'
+  fr: ''
+  it: ''
+  en: ''
+file_name:
+  de: '{Projekt-Nr.}_ZRH_PNP-1, {Projekt-Nr.}_ZRH_PNP-2, {Projekt-Nr.}_ZRH_PNP-3'
+  fr: ''
+  it: ''
+  en: ''
+status: active

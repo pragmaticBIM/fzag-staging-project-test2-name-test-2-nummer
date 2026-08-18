@@ -1,0 +1,22 @@
+id: fzag:value/typ-profil-spundwand
+name:
+  de: Typ Profil Spundwand
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Querschnittsform der Spundbohle an, z. B. U‑Profil (PU), Z‑Profil (AZ) oder Sonderprofile, welche das Trag‑ und Verformungsverhalten bestimmen.
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - PU (U-Spundbohle)
+  - AZ (Z-Spundbohle)
+  - Sonderprofil
+  fr: []
+  it: []
+  en: []

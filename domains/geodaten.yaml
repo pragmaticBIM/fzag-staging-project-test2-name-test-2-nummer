@@ -1,0 +1,18 @@
+id: fzag:domain/geodaten
+sort_order: 12
+name:
+  de: Geodaten
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: Basismodell - Die Geodaten wie z.B. Wald, Altlasten, Naturgefahren für das Projektperimeter können bei der Swisstopo oder beim Kanton Zürich (GIS-Browser) angefordert werden.
+  fr: ''
+  it: ''
+  en: ''
+status: active
+file_name:
+  de: '{Projekt-Nr.}_Grundwasser, {Projekt-Nr.}_Wald, {Projekt-Nr.}_Altlasten, usw..'
+  fr: ''
+  it: ''
+  en: ''

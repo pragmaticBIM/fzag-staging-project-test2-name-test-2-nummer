@@ -1,0 +1,22 @@
+id: fzag:value/manual-sondage
+name:
+  de: Subtyp_FZAG_Allgemein_Bohrkern und Sondage
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Datum (TT.MM.JJJJ)
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Sondage
+  fr:
+  - Sondage
+  it:
+  - Sondage
+  en: []

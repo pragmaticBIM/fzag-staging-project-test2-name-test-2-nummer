@@ -1,0 +1,30 @@
+id: fzag:workflow/fzag-awf-010-bestandserfassung-und-modellierung
+sort_order: 1
+code: FZAG-AWF-010
+name:
+  de: Bestandserfassung und -modellierung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: "Erfassung der wesentlichen Aspekte des Bestandes mithilfe der Grundlagen der FZAG. Überführung in ein Bestandsmodell (IFC) bestehend aus: \n-Digitales Geländemodell (DGM) - wird durch die Werkleitungskoordination\
+    \ geliefert \n-Geologiemodell (Darstellung der geologischen Schichten aufgrund von Resultaten aus Bohrkernen und Sondagen) \n-swissBuildings3D vom Swisstopo \n-3D Gebäude FZAG \n-Strassenkörper (Darstellung\
+    \ Kofferung; Trag-, Binder, Deckschicht; Bankett), PAK-haltige Schichten, Randabschlüsse \n-Grenzen (inkl. Baustellenabgrenzung/Sperrzonen, Baustellenabschrankung) \n-Werkleitungen & Kanalisation FZAG\
+    \ \n-Darstellung Eigentum Dritte: Abwasser, Trinkwasser (inkl. Hydranten), Beleuchtung (inkl. Kandelaber), Gas, Fernwärme, EW, Swisscom, weitere Anbieter -Kunstbauten (Brücken, Stützwände, etc.) -Bewuchs,\
+    \ Bepflanzungen, Mulde"
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: active
+needed_in_domain:
+- fzag:domain/technische-ausruestung
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+- fzag:domain/trinkwasser
+- fzag:domain/elektroanlagen-o
+- fzag:domain/entwaesserung
+- fzag:domain/materialkennwert
+- fzag:domain/gelande-dtm
+comment: ''
+workflow_group: Standard

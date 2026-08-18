@@ -1,0 +1,22 @@
+id: fzag:value/manual-baugrubensicherung
+name:
+  de: Subtyp_FZAG_Allgemein_Baugrubensicherung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Baugrubensicherung
+  fr:
+  - Baugrubensicherung
+  it:
+  - Baugrubensicherung
+  en: []

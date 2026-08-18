@@ -1,0 +1,21 @@
+id: fzag:value/typ-fundament
+name:
+  de: Typ Betonfundament
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Typ des Fundaments
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Einzelfundament
+  - Streifenfundament
+  fr: []
+  it: []
+  en: []

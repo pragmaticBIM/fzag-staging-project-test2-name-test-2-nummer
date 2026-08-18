@@ -1,0 +1,18 @@
+id: fzag:domain/geologie
+sort_order: 9
+name:
+  de: Geologie
+  fr: ''
+  it: ''
+  en: ''
+definition:
+  de: "Basismodell FZAG - Das Geologiemodell für das Projektperimeter kann bei der Werkleitungskoordination für den Projektstart angefordert werden. \n!!!Das Modell ist nur im Bereich RETS34 verfügbar!!!"
+  fr: ''
+  it: ''
+  en: ''
+status: wip
+file_name:
+  de: '{Projekt-Nr.}_Geologie'
+  fr: ''
+  it: ''
+  en: ''

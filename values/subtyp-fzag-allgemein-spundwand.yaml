@@ -1,0 +1,20 @@
+id: fzag:value/subtyp-fzag-allgemein-spundwand
+name:
+  de: Subtyp_FZAG_Allgemein_Pfahl
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2026
+norm_reference: null
+status: active
+values:
+  de:
+  - Pfahl
+  fr: []
+  it: []
+  en: []

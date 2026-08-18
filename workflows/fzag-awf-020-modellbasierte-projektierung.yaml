@@ -1,0 +1,27 @@
+id: fzag:workflow/fzag-awf-020-modellbasierte-projektierung
+sort_order: 10
+code: FZAG-AWF-020
+name:
+  de: Modellbasierte Projektierung
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: "Elementbasierte Modellierung der Volumenkörper und geometrischen Elemente gemäss Anforderungen des EIR und FDK und Flughafen-Normalien\n-Alle Elemente müssen geschlossenen Volumenkörpern entsprechen\
+    \ und die Modellanforderungen berücksichtigen. \n-Alle für die Ausschreibung relevanten Elemente sind zu modellieren und gemäss dem EIR zu attribuieren. \n-Mengeneinheiten müssen mit dem Leistungsverzeichnis\
+    \ kongruent sein \n-Objekte sind nach Bauphasen zugeordnet\n-Baustellen-Abschrankung und Abgrenzungen/Sperrzonen (Tag/-Nachtarbeit) gemäss Angaben Flight Ops sind im Modell ersichtlich"
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: active
+needed_in_domain:
+- fzag:domain/trinkwasser
+- fzag:domain/entwaesserung
+- fzag:domain/technische-ausruestung
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+- fzag:domain/elektroanlagen-o
+- fzag:domain/materialkennwert
+comment: ''
+workflow_group: Standard

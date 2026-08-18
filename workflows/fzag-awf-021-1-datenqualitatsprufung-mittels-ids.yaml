@@ -1,0 +1,27 @@
+id: fzag:workflow/fzag-awf-021-1-datenqualitatsprufung-mittels-ids
+sort_order: 15
+code: FZAG-AWF-021.1
+name:
+  de: Datenqualitätsprüfung mittels IDS
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Die FZAG führt gemäss den in dem EIR definierten Data Drops eine eigene Qualitätskontrolle durch. Alle festgestellte Qualitätsmangel sind durch den Auftragnehmer zu bereinigen (nicht als Zusatzaufwand
+    qualifiziert). IDS wird durch die FZAG bei der Bestellung abgegeben. Der Auftragnehmer ist verantwortlich für die laufende Qualitätsprüfung mittels IDS.
+  fr: ''
+  it: ''
+  en: ''
+picture_link: null
+status: active
+needed_in_domain:
+- fzag:domain/trinkwasser
+- fzag:domain/entwaesserung
+- fzag:domain/technische-ausruestung
+- fzag:domain/oberbau
+- fzag:domain/unterbau
+- fzag:domain/elektroanlagen-o
+- fzag:domain/materialkennwert
+comment: ''
+parent_workflow: fzag:workflow/fzag-awf-021-datenqualitatsprufung
+workflow_group: Standard

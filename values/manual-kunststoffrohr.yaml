@@ -1,0 +1,22 @@
+id: fzag:value/manual-kunststoffrohr
+name:
+  de: Subtyp_FZAG_Allgemein_Kunststoffrohr
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: ''
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - Kunststoffrohr
+  fr:
+  - Kunststoffrohr
+  it:
+  - Kunststoffrohr
+  en: []

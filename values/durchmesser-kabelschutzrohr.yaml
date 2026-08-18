@@ -1,0 +1,24 @@
+id: fzag:value/durchmesser-kabelschutzrohr
+name:
+  de: Durchmesser Kabelschutzrohr
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Durchmesser des Kabelschutzrohres in mm
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - '80'
+  - '100'
+  - '120'
+  - '150'
+  - '200'
+  fr: []
+  it: []
+  en: []

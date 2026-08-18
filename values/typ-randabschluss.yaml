@@ -1,0 +1,21 @@
+id: fzag:value/typ-randabschluss
+name:
+  de: Typ Randabschluss
+  fr: ''
+  it: ''
+  en: ''
+description:
+  de: Typ des Randabschlusses
+  fr: ''
+  it: ''
+  en: ''
+year: 2025
+norm_reference: null
+status: active
+values:
+  de:
+  - TBA 613
+  - TBA 611
+  fr: []
+  it: []
+  en: []
